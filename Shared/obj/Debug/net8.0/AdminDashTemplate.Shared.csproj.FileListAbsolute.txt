@@ -1,0 +1,12 @@
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\bin\Debug\net8.0\AdminDashTemplate.Shared.deps.json
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\bin\Debug\net8.0\AdminDashTemplate.Shared.dll
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\bin\Debug\net8.0\AdminDashTemplate.Shared.pdb
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\obj\Debug\net8.0\AdminDashTemplate.Shared.csproj.AssemblyReference.cache
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\obj\Debug\net8.0\AdminDashTemplate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\obj\Debug\net8.0\AdminDashTemplate.Shared.AssemblyInfoInputs.cache
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\obj\Debug\net8.0\AdminDashTemplate.Shared.AssemblyInfo.cs
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\obj\Debug\net8.0\AdminDashTemplate.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\obj\Debug\net8.0\AdminDashTemplate.Shared.dll
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\obj\Debug\net8.0\refint\AdminDashTemplate.Shared.dll
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\obj\Debug\net8.0\AdminDashTemplate.Shared.pdb
+C:\Users\Rober\source\repos\AdminDashTemplate\Shared\obj\Debug\net8.0\ref\AdminDashTemplate.Shared.dll

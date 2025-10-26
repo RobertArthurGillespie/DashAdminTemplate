@@ -1,0 +1,4 @@
+wwwroot\css\app.css
+wwwroot\icon-512.png
+wwwroot\index.html
+wwwroot\manifest.json
