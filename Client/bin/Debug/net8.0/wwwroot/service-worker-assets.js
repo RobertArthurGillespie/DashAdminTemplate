@@ -1,20 +1,20 @@
 self.assetsManifest = {
-  "version": "cDiGoBI8",
+  "version": "zLCwXP+D",
   "assets": [
     {
-      "hash": "sha256-le7eVz2AXUSO6i/ChjAlqWqtuV01toHqFUZuLstH3OA=",
+      "hash": "sha256-YZaHaermpRNlAero5VYoHBbzj7EfNsRboSJvLT94NHc=",
       "url": "_framework/AdminDashTemplate.Client.pdb"
     },
     {
-      "hash": "sha256-bCVjTrRsl24QS2bQ46cE642knP9XjQ8dKdPg9CPDp/Q=",
+      "hash": "sha256-9KqgRyadXbBh3vM4Fy8Gimek3yoiL8iscke8Clyq1NM=",
       "url": "_framework/AdminDashTemplate.Client.wasm"
     },
     {
-      "hash": "sha256-EXTbKH+dH9Vl/JHS/HJpP9uh4S7V+VSZWL7xK1ZiIgg=",
+      "hash": "sha256-OmXyeeBb8LqD+B9npHZZ/P0P30sqO2tFROJeEfWNpLs=",
       "url": "_framework/AdminDashTemplate.Shared.pdb"
     },
     {
-      "hash": "sha256-ZNIgHr7fawBBFtgAtXyPXTWZWOW2SPDP1UjvNe/NSE4=",
+      "hash": "sha256-m34RyJc1U+HtbfGC1Eq12xGBumb0oM3y0bHOwPCHMqw=",
       "url": "_framework/AdminDashTemplate.Shared.wasm"
     },
     {
@@ -790,7 +790,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-II7tu8HU45MD9bwjjWlcCP70vd+Hw5L36dihE5Fien8=",
+      "hash": "sha256-mdpWtOrS60oDpco76jjZKbG7WqnbqpTuiiHtfSb+faY=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -868,6 +868,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-5LAxnzxm/J7dcUejW8T6juL/t4vTDgD2FHXwM0ZDeF0=",
       "url": "css/vendors.min.css"
+    },
+    {
+      "hash": "sha256-P1aC/0jooZHTu0eAiQamtSTaF3LouG5YP7Q5MwzORV0=",
+      "url": "favicon.ico"
     },
     {
       "hash": "sha256-R2Qsg7S4kjMXw5dfyeH6+h1+z6Q6h3GEWPCbYhbL/tY=",
@@ -1490,7 +1494,7 @@ self.assetsManifest = {
       "url": "js/pages/coming-soon.js"
     },
     {
-      "hash": "sha256-gREotOL0mPiLsIIg3QyFpmoIYiAFstwo4Bf8h0StjdU=",
+      "hash": "sha256-rPlMncKd03fw8A05PV/qZ13J/l74mp0yzApFXrmwIEY=",
       "url": "js/pages/dashboard.analytics.js"
     },
     {

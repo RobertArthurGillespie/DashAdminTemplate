@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
@@ -26,6 +27,8 @@ app.UseRouting();
 
 app.MapRazorPages();
 app.MapControllers();
+
+
 app.MapFallbackToFile("index.html");
 
 app.Run();

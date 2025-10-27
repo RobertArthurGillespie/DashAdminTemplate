@@ -50,6 +50,8 @@ C:\Users\Rober\source\repos\AdminDashTemplate\Server\obj\Debug\net8.0\refint\Adm
 C:\Users\Rober\source\repos\AdminDashTemplate\Server\obj\Debug\net8.0\AdminDashTemplate.Server.pdb
 C:\Users\Rober\source\repos\AdminDashTemplate\Server\obj\Debug\net8.0\AdminDashTemplate.Server.genruntimeconfig.cache
 C:\Users\Rober\source\repos\AdminDashTemplate\Server\obj\Debug\net8.0\ref\AdminDashTemplate.Server.dll
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\AdminDashTemplate.Client.staticwebassets.runtime.json
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\AdminDashTemplate.Client.staticwebassets.endpoints.json
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\appsettings.json
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.dll
@@ -63,8 +65,6 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.NET.WebAssembly.Webcil.dll
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.SymbolStore.dll
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\BlazorDebugProxy\Newtonsoft.Json.dll
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\AdminDashTemplate.Client.staticwebassets.runtime.json
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\AdminDashTemplate.Client.staticwebassets.endpoints.json
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\AdminDashTemplate.Server.staticwebassets.runtime.json
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\AdminDashTemplate.Server.staticwebassets.endpoints.json
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Server\bin\Debug\net8.0\AdminDashTemplate.Server.exe

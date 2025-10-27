@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\css\\vendors.min.css"
     },
     {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
       "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\fonts\\boxicons.eot",
       "PackagePath": "staticwebassets\\fonts\\boxicons.eot"
     },

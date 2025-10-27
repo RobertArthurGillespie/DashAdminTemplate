@@ -2,14 +2,15 @@
 
 namespace AdminDashTemplate.Server.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
+    
     public class SimController : ControllerBase
     {
         
 
-        [HttpGet("Test")]
-        public IActionResult Test()
+        [HttpGet("test")]
+        public IActionResult test()
         {
             return Content("Test successful");
         }

@@ -1,0 +1,473 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = AdminDashTemplate.Client
+build_property.RootNamespace = AdminDashTemplate.Client
+build_property.ProjectDir = C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Layout/AuthLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGF5b3V0XEF1dGhMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Layout/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGF5b3V0XFNoYXJlZFxGb290ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Layout/Shared/MainNav.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGF5b3V0XFNoYXJlZFxNYWluTmF2LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Layout/Shared/PageBreadcrumb.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGF5b3V0XFNoYXJlZFxQYWdlQnJlYWRjcnVtYi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Layout/Shared/RightSidebar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGF5b3V0XFNoYXJlZFxSaWdodFNpZGViYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Layout/Shared/Topbar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGF5b3V0XFNoYXJlZFxUb3BiYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Layout/VerticalLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGF5b3V0XFZlcnRpY2FsTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/AdvancedUI/Scrollbar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQWR2YW5jZWRVSVxTY3JvbGxiYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/AdvancedUI/SweetAlert.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQWR2YW5jZWRVSVxTd2VldEFsZXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/AdvancedUI/SwiperSlider.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQWR2YW5jZWRVSVxTd2lwZXJTbGlkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/AdvancedUI/Toastify.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQWR2YW5jZWRVSVxUb2FzdGlmeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Apps/Calendar/Help.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXBwc1xDYWxlbmRhclxIZWxwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Apps/Calendar/Integration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXBwc1xDYWxlbmRhclxJbnRlZ3JhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Apps/Calendar/Schedule.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXBwc1xDYWxlbmRhclxTY2hlZHVsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Apps/Chat.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXBwc1xDaGF0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Apps/Contacts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXBwc1xDb250YWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Apps/Email.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXBwc1xFbWFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Apps/Invoices/Details.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXBwc1xJbnZvaWNlc1xEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Apps/Invoices/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXBwc1xJbnZvaWNlc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Apps/Social.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXBwc1xTb2NpYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Apps/Todo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXBwc1xUb2RvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Auth/LockScreen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXV0aFxMb2NrU2NyZWVuLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Auth/LockScreen2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXV0aFxMb2NrU2NyZWVuMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Auth/ResetPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXV0aFxSZXNldFBhc3N3b3JkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Auth/ResetPassword2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXV0aFxSZXNldFBhc3N3b3JkMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Auth/SignIn.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXV0aFxTaWduSW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Auth/SignIn2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXV0aFxTaWduSW4yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Auth/SignUp.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXV0aFxTaWduVXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Auth/SignUp2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQXV0aFxTaWduVXAyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Area.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXEFyZWEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Bar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXEJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Boxplot.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXEJveHBsb3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Bubble.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXEJ1YmJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Candlestick.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXENhbmRsZXN0aWNrLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Column.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXENvbHVtbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Heatmap.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXEhlYXRtYXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Line.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXExpbmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Mixed.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXE1peGVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Pie.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXFBpZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/PolarArea.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXFBvbGFyQXJlYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Radar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXFJhZGFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/RadialBar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXFJhZGlhbEJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Scatter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXFNjYXR0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Timeline.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXFRpbWVsaW5lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Charts/Treemap.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcQ2hhcnRzXFRyZWVtYXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Dashboards/Analytics.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRGFzaGJvYXJkc1xBbmFseXRpY3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Dashboards/Finance.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRGFzaGJvYXJkc1xGaW5hbmNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Dashboards/Sales.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRGFzaGJvYXJkc1xTYWxlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Ecommerce/CustomerList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRWNvbW1lcmNlXEN1c3RvbWVyTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Ecommerce/Inventory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRWNvbW1lcmNlXEludmVudG9yeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Ecommerce/OrderDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRWNvbW1lcmNlXE9yZGVyRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Ecommerce/OrdersList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRWNvbW1lcmNlXE9yZGVyc0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Ecommerce/ProductAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRWNvbW1lcmNlXFByb2R1Y3RBZGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Ecommerce/ProductDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRWNvbW1lcmNlXFByb2R1Y3REZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Ecommerce/ProductsList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRWNvbW1lcmNlXFByb2R1Y3RzTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Ecommerce/SellersList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRWNvbW1lcmNlXFNlbGxlcnNMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Error/404-2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRXJyb3JcNDA0LTIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Error/404.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRXJyb3JcNDA0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Error/404Alt.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRXJyb3JcNDA0QWx0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Forms/Basic.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9ybXNcQmFzaWMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Forms/CheckboxRadio.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9ybXNcQ2hlY2tib3hSYWRpby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Forms/Choice.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9ybXNcQ2hvaWNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Forms/Clipboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9ybXNcQ2xpcGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Forms/Editors.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9ybXNcRWRpdG9ycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Forms/FileUpload.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9ybXNcRmlsZVVwbG9hZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Forms/Flatepicker.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9ybXNcRmxhdGVwaWNrZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Forms/InputMask.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9ybXNcSW5wdXRNYXNrLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Forms/Slider.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9ybXNcU2xpZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Forms/Validation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9ybXNcVmFsaWRhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Forms/Wizard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9ybXNcV2l6YXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Icons/Boxicons.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcSWNvbnNcQm94aWNvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Icons/IconaMoon.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcSWNvbnNcSWNvbmFNb29uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Maps/Google.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcTWFwc1xHb29nbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Maps/Vector.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcTWFwc1xWZWN0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Pages/AboutUs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUGFnZXNcQWJvdXRVcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Pages/ComingSoon.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUGFnZXNcQ29taW5nU29vbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Pages/ContactUs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUGFnZXNcQ29udGFjdFVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Pages/FAQs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUGFnZXNcRkFRcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Pages/Maintenance.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUGFnZXNcTWFpbnRlbmFuY2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Pages/Pricing.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUGFnZXNcUHJpY2luZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Pages/Starter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUGFnZXNcU3RhcnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Pages/Team.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUGFnZXNcVGVhbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Pages/Timeline.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUGFnZXNcVGltZWxpbmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Tables/Basic.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVGFibGVzXEJhc2ljLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Tables/GridJS.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVGFibGVzXEdyaWRKUy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Accordion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcQWNjb3JkaW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Alerts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcQWxlcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Avatar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcQXZhdGFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Badge.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcQmFkZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Breadcrumb.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcQnJlYWRjcnVtYi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Buttons.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcQnV0dG9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Card.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Carousel.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcQ2Fyb3VzZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Collapse.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcQ29sbGFwc2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Dropdown.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcRHJvcGRvd24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/ListGroup.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcTGlzdEdyb3VwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcTW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Offcanvas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcT2ZmY2FudmFzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Pagination.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcUGFnaW5hdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Placeholders.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcUGxhY2Vob2xkZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Popovers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcUG9wb3ZlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Progress.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcUHJvZ3Jlc3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Spinners.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcU3Bpbm5lcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Tabs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcVGFicy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Toasts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcVG9hc3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/UI/Tooltips.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcVUlcVG9vbHRpcHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/Pages/Pages/Widgets/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcV2lkZ2V0c1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rober/source/repos/AdminReback/AdminDashTemplate/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

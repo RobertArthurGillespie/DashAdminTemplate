@@ -1067,6 +1067,11 @@ C:\Users\Rober\source\repos\AdminDashTemplate\Client\obj\Debug\net8.0\AdminDashT
 C:\Users\Rober\source\repos\AdminDashTemplate\Client\obj\Debug\net8.0\refint\AdminDashTemplate.Client.dll
 C:\Users\Rober\source\repos\AdminDashTemplate\Client\obj\Debug\net8.0\AdminDashTemplate.Client.pdb
 C:\Users\Rober\source\repos\AdminDashTemplate\Client\obj\Debug\net8.0\ref\AdminDashTemplate.Client.dll
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Client.pdb
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Client.wasm
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Shared.pdb
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Shared.wasm
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\dotnet.js
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map
@@ -1282,6 +1287,7 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Xml.Linq.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.wasm.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Client.pdb.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.wasm.gz
@@ -1333,6 +1339,7 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Collections.Specialized.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Http.wasm.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Security.Principal.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Linq.Expressions.wasm.gz
@@ -1362,6 +1369,7 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Globalization.Calendars.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Resources.Reader.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.wasm.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Shared.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.ObjectModel.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.IO.Pipes.AccessControl.wasm.gz
@@ -1413,6 +1421,7 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Handles.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.IO.MemoryMappedFiles.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Threading.Thread.wasm.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Shared.pdb.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Diagnostics.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Numerics.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.wasm.gz
@@ -1458,6 +1467,7 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.ServiceModel.Web.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Threading.Tasks.Parallel.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.VisualBasic.wasm.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Client.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Formats.Asn1.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Buffers.wasm.gz
@@ -1479,16 +1489,6 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.VisualBasic.Core.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Web.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\System.Net.Primitives.wasm.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Client.pdb
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Client.wasm
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Shared.pdb
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Shared.wasm
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Client.pdb.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Shared.wasm.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Shared.pdb.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\_framework\AdminDashTemplate.Client.wasm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\service-worker.js
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\wwwroot\service-worker-assets.js
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\bin\Debug\net8.0\AdminDashTemplate.Client.staticwebassets.runtime.json
@@ -2117,8 +2117,8 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\0mwzcnwkl0-tptq2av103.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\mhtgymreao-lfu7j35m59.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\scpxmg2uz6-oyz0vx2fzb.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\frphujzi3q-0tl0s2sztm.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\o19aqwd4xw-dxeio4r4pp.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\frphujzi3q-5gaqaw47nk.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\o19aqwd4xw-e6us7j4xxe.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -2134,6 +2134,6 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\refint\AdminDashTemplate.Client.dll
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\AdminDashTemplate.Client.pdb
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\ref\AdminDashTemplate.Client.dll
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\we9f4pdxl7-kq7lz6b60u.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\1cgt0u97w9-71cqiw0yk1.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\begouxysay-c9l22dmr6v.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\we9f4pdxl7-0lg4ijgcmp.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\1cgt0u97w9-ljyifez6cl.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\begouxysay-d7d78l6f9r.gz
