@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AdminDashTemplate.Client",
   "resources": {
-    "hash": "sha256-wAP8P5cx6q1cwJWXRIA1KxBK33MuNJiEJdbtMGL6TEk=",
+    "hash": "sha256-d5gUD6G5EhWBHq0tatOBjaZok8XKGTUtoXrD8YEx60w=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -213,12 +213,12 @@
       "mscorlib.wasm": "sha256-BeLfFpg9iS3DkEdywsYY7sV6ML3knqkMaMq0JBEbWlw=",
       "netstandard.wasm": "sha256-VkjUtJ6DK5bFTc2JwwGHmQY3tBcNSC7zMSJXuiXcnJA=",
       "System.Private.CoreLib.wasm": "sha256-VIQEPUSb48N39LR+ncGDP5xU02xuRbyZU8MhMho26wQ=",
-      "AdminDashTemplate.Shared.wasm": "sha256-hpFzpuIErexvAqbRur96zxRnqoIogC88ofqq9E4tQbE=",
-      "AdminDashTemplate.Client.wasm": "sha256-j/ZXfSuAscxFadqTusP9Exd2mdDWz8h2Fhs4XU/XWOA="
+      "AdminDashTemplate.Shared.wasm": "sha256-ZNIgHr7fawBBFtgAtXyPXTWZWOW2SPDP1UjvNe/NSE4=",
+      "AdminDashTemplate.Client.wasm": "sha256-bCVjTrRsl24QS2bQ46cE642knP9XjQ8dKdPg9CPDp/Q="
     },
     "pdb": {
-      "AdminDashTemplate.Shared.pdb": "sha256-qW9TeGFAA8jk/FCx8zUg1Q9NhE9LpB9b1eU/4ADCiNg=",
-      "AdminDashTemplate.Client.pdb": "sha256-DcsM5tRtRzdJjg+rKEDanBvOTnKaz2AwDZsffAHl6TI="
+      "AdminDashTemplate.Shared.pdb": "sha256-EXTbKH+dH9Vl/JHS/HJpP9uh4S7V+VSZWL7xK1ZiIgg=",
+      "AdminDashTemplate.Client.pdb": "sha256-le7eVz2AXUSO6i/ChjAlqWqtuV01toHqFUZuLstH3OA="
     }
   },
   "cacheBootResources": true,

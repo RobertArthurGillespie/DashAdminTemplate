@@ -1,0 +1,20 @@
+@page "/pages/starter"
+
+@inject IJSRuntime JsRuntime;
+
+<PageBreadcrumb Title="Welcome" SubTitle="Pages"/>
+
+@* content here *@
+
+@code {
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JsRuntime.InvokeVoidAsync("loadTheme");
+            await JsRuntime.InvokeVoidAsync("loadApps");
+        }
+    }
+
+}

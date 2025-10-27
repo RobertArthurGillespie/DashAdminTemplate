@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "caER8VcuA2U=",
+  "dgSpecHash": "jijtL1iZCCE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Server\\AdminDashTemplate.Server.csproj",
+  "projectFilePath": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Server\\AdminDashTemplate.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rober\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\Rober\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.0\\microsoft.aspnetcore.components.8.0.0.nupkg.sha512",

@@ -1,0 +1,143 @@
+@page "/charts/treemap"
+
+@inject IJSRuntime JsRuntime;
+
+<PageBreadcrumb Title="Treemap Charts" SubTitle="Charts"/>
+
+<div class="row">
+    <div class="col-xl-9">
+        <div class="card">
+            <div class="card-body">
+                <h5
+                    class="card-title anchor mb-1"
+                    id="overview">
+                    Overview
+                </h5>
+
+                <p class="mb-0">
+                    <span class="fw-medium">
+                        Find the JS file for the following
+                        chart at:
+                    </span>
+                    <code>
+                        /js/components/apexchart-treemap.js
+                    </code>
+                </p>
+            </div>
+            <!-- end card-body -->
+        </div>
+        <!-- end card -->
+
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title anchor" id="basic">
+                    Basic Treemap
+                </h4>
+                <div dir="ltr">
+                    <div
+                        id="basic-treemap"
+                        class="apex-charts">
+                    </div>
+                </div>
+            </div>
+            <!-- end card body-->
+        </div>
+        <!-- end card -->
+
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title anchor" id="multiple">
+                    Treemap Multiple Series
+                </h4>
+                <div dir="ltr">
+                    <div
+                        id="multiple-treemap"
+                        class="apex-charts">
+                    </div>
+                </div>
+            </div>
+            <!-- end card body-->
+        </div>
+        <!-- end card -->
+
+        <div class="card">
+            <div class="card-body">
+                <h4
+                    class="card-title anchor"
+                    id="distributed">
+                    Distributed Treemap
+                </h4>
+                <div dir="ltr">
+                    <div
+                        id="distributed-treemap"
+                        class="apex-charts">
+                    </div>
+                </div>
+            </div>
+            <!-- end card body-->
+        </div>
+        <!-- end card -->
+
+        <div class="card">
+            <div class="card-body">
+                <h4
+                    class="card-title anchor"
+                    id="color-range">
+                    Color Range Treemap
+                </h4>
+                <div dir="ltr">
+                    <div
+                        id="color-range-treemap"
+                        class="apex-charts">
+                    </div>
+                </div>
+            </div>
+            <!-- end card body-->
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col -->
+
+    <div class="col-xl-3">
+        <div class="card docs-nav">
+            <ul class="nav bg-transparent flex-column">
+                <li class="nav-item">
+                    <a href="/charts/treemap#basic" class="nav-link">
+                        Basic
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/treemap#multiple" class="nav-link">
+                        Treemap Multiple Series
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/treemap#distributed" class="nav-link">
+                        Distributed Treemap
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/treemap#color-range" class="nav-link">
+                        Color Range Treemap
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+@code {
+    private IJSObjectReference? _module;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./js/components/apexchart-treemap.js");
+            await JsRuntime.InvokeVoidAsync("loadTreemapCharts");
+            await JsRuntime.InvokeVoidAsync("loadTheme");
+            await JsRuntime.InvokeVoidAsync("loadApps");
+        }
+    }
+
+}

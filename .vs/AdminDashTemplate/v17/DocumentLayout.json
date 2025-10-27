@@ -1,17 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\",
+  "WorkspaceRootPath": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{010BEF2E-8AFB-40B5-A14E-BF3EAD61AF88}|Shared\\AdminDashTemplate.Shared.csproj|c:\\users\\rober\\source\\repos\\admindashtemplate\\shared\\admindashtemplate.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{010BEF2E-8AFB-40B5-A14E-BF3EAD61AF88}|Shared\\AdminDashTemplate.Shared.csproj|solutionrelative:shared\\admindashtemplate.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|c:\\users\\rober\\source\\repos\\admindashtemplate\\server\\admindashtemplate.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\server\\controllers\\simcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|solutionrelative:server\\controllers\\simcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\server\\admindashtemplate.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{108FA196-76E2-4EE7-BBB4-2CD12451C14B}|Server\\AdminDashTemplate.Server.csproj|solutionrelative:server\\admindashtemplate.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\admindashtemplate\\client\\admindashtemplate.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\pages\\maintenance.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\pages\\maintenance.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\layout\\verticallayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\layout\\verticallayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\layout\\authlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\layout\\authlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\maps\\vector.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\maps\\vector.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\dashboards\\analytics.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\dashboards\\analytics.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\apps\\invoices\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\apps\\invoices\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\apps\\invoices\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\apps\\invoices\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\error\\404alt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\error\\404alt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\error\\404-2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\error\\404-2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\error\\404.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\error\\404.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\pages\\comingsoon.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\pages\\comingsoon.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\auth\\signup2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\auth\\signup2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\auth\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\auth\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\auth\\signin2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\auth\\signin2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\auth\\signin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\auth\\signin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\auth\\resetpassword2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\auth\\resetpassword2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\auth\\resetpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\auth\\resetpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\auth\\lockscreen2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\auth\\lockscreen2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\pages\\pages\\auth\\lockscreen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\pages\\pages\\auth\\lockscreen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010BEF2E-8AFB-40B5-A14E-BF3EAD61AF88}|Shared\\AdminDashTemplate.Shared.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\shared\\admindashtemplate.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{010BEF2E-8AFB-40B5-A14E-BF3EAD61AF88}|Shared\\AdminDashTemplate.Shared.csproj|solutionrelative:shared\\admindashtemplate.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|c:\\users\\rober\\source\\repos\\adminreback\\admindashtemplate\\client\\admindashtemplate.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2C758632-B005-4BCF-8B80-77082943F7B8}|Client\\AdminDashTemplate.Client.csproj|solutionrelative:client\\admindashtemplate.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -35,41 +127,315 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminDashTemplate.Shared",
-              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Shared\\AdminDashTemplate.Shared.csproj",
-              "RelativeDocumentMoniker": "Shared\\AdminDashTemplate.Shared.csproj",
-              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Shared\\AdminDashTemplate.Shared.csproj",
-              "RelativeToolTip": "Shared\\AdminDashTemplate.Shared.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-26T02:54:03.863Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T14:19:26.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdminDashTemplate.Server",
-              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Server\\AdminDashTemplate.Server.csproj",
-              "RelativeDocumentMoniker": "Server\\AdminDashTemplate.Server.csproj",
-              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Server\\AdminDashTemplate.Server.csproj",
-              "RelativeToolTip": "Server\\AdminDashTemplate.Server.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-26T02:53:56.397Z",
-              "EditorCaption": ""
+              "Title": "SimController.cs",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Server\\Controllers\\SimController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\SimController.cs",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Server\\Controllers\\SimController.cs",
+              "RelativeToolTip": "Server\\Controllers\\SimController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T14:05:12.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VerticalLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Layout\\VerticalLayout.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Layout\\VerticalLayout.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Layout\\VerticalLayout.razor",
+              "RelativeToolTip": "Client\\Pages\\Layout\\VerticalLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:53:04.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Vector.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Maps\\Vector.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Maps\\Vector.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Maps\\Vector.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Maps\\Vector.razor",
+              "ViewState": "AgIAAFkCAAAAAAAAAAAAAHUCAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:40:59.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "404Alt.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Error\\404Alt.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Error\\404Alt.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Error\\404Alt.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Error\\404Alt.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:22:47.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Maintenance.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Pages\\Maintenance.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Pages\\Maintenance.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Pages\\Maintenance.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Pages\\Maintenance.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:21:30.197Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AdminDashTemplate.Client",
-              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Client\\AdminDashTemplate.Client.csproj",
+              "Title": "AdminDashTemplate.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Server\\AdminDashTemplate.Server.csproj",
+              "RelativeDocumentMoniker": "Server\\AdminDashTemplate.Server.csproj",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Server\\AdminDashTemplate.Server.csproj",
+              "RelativeToolTip": "Server\\AdminDashTemplate.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-26T02:53:56.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Layout\\AuthLayout.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Layout\\AuthLayout.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Layout\\AuthLayout.razor",
+              "RelativeToolTip": "Client\\Pages\\Layout\\AuthLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:53:07.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\App.razor",
+              "RelativeDocumentMoniker": "Client\\App.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\App.razor",
+              "RelativeToolTip": "Client\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:49:19.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ComingSoon.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Pages\\ComingSoon.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Pages\\ComingSoon.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Pages\\ComingSoon.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Pages\\ComingSoon.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:21:17.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "404-2.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Error\\404-2.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Error\\404-2.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Error\\404-2.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Error\\404-2.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:19:45.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "404.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Error\\404.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Error\\404.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Error\\404.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Error\\404.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:19:35.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SignUp2.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignUp2.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\SignUp2.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignUp2.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\SignUp2.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:18:45.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\index.html",
+              "RelativeToolTip": "Client\\wwwroot\\index.html",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwDsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-27T12:40:44.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Apps\\Invoices\\Details.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Apps\\Invoices\\Details.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Apps\\Invoices\\Details.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Apps\\Invoices\\Details.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:23:26.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Apps\\Invoices\\Index.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Apps\\Invoices\\Index.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Apps\\Invoices\\Index.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Apps\\Invoices\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:23:33.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Analytics.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Dashboards\\Analytics.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Dashboards\\Analytics.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Dashboards\\Analytics.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Dashboards\\Analytics.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:25:50.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SignUp.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignUp.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\SignUp.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignUp.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\SignUp.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:18:39.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SignIn2.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignIn2.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\SignIn2.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignIn2.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\SignIn2.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:18:34.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SignIn.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignIn.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\SignIn.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\SignIn.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\SignIn.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:18:28.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ResetPassword2.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\ResetPassword2.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\ResetPassword2.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\ResetPassword2.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\ResetPassword2.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:18:22.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ResetPassword.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\ResetPassword.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\ResetPassword.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\ResetPassword.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\ResetPassword.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:18:16.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LockScreen2.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\LockScreen2.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\LockScreen2.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\LockScreen2.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\LockScreen2.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:18:00.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LockScreen.razor",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\LockScreen.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Pages\\Auth\\LockScreen.razor",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\Pages\\Pages\\Auth\\LockScreen.razor",
+              "RelativeToolTip": "Client\\Pages\\Pages\\Auth\\LockScreen.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T13:16:26.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminDashTemplate.Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Shared\\AdminDashTemplate.Shared.csproj",
+              "RelativeDocumentMoniker": "Shared\\AdminDashTemplate.Shared.csproj",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Shared\\AdminDashTemplate.Shared.csproj",
+              "RelativeToolTip": "Shared\\AdminDashTemplate.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-26T02:54:03.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminDashTemplate.Client.csproj",
+              "DocumentMoniker": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\AdminDashTemplate.Client.csproj",
               "RelativeDocumentMoniker": "Client\\AdminDashTemplate.Client.csproj",
-              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Client\\AdminDashTemplate.Client.csproj",
+              "ToolTip": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\AdminDashTemplate.Client.csproj",
               "RelativeToolTip": "Client\\AdminDashTemplate.Client.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-26T02:53:48.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T02:53:48.779Z"
             }
           ]
         }

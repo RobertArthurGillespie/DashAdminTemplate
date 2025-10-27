@@ -1,0 +1,839 @@
+
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JsRuntime;
+
+<div class="main-nav">
+    <!-- Sidebar Logo -->
+    <div class="logo-box">
+        <a href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/"))" class="logo-dark">
+            <img src="/images/logo-sm.png" class="logo-sm" alt="logo sm"/>
+            <img src="/images/logo-dark.png" class="logo-lg" alt="logo dark"/>
+        </a>
+
+        <a href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/"))" class="logo-light">
+            <img src="/images/logo-sm.png" class="logo-sm" alt="logo sm"/>
+            <img src="/images/logo-light.png" class="logo-lg" alt="logo light"/>
+        </a>
+    </div>
+
+    <!-- Menu Toggle Button (sm-hover) -->
+    <button type="button" class="button-sm-hover" aria-label="Show Full Sidebar" @onclick="sidenavMenuToggler">
+        <iconify-icon icon="iconamoon:arrow-left-4-square-duotone" class="button-sm-hover-icon">
+        </iconify-icon>
+    </button>
+
+    <div class="scrollbar" data-simplebar>
+        <ul class="navbar-nav" id="navbar-nav">
+            <li class="menu-title">General</li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarDashboards" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarDashboards">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:home-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Dashboards </span>
+                </a>
+                <div class="collapse" id="sidebarDashboards">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/"))">Analytics</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/dashboards/finance"))">
+                                Finance
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/dashboards/sales"))">Sales</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="menu-title">Apps</li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarEcommerce" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarEcommerce">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:shopping-bag-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Ecommerce </span>
+                </a>
+                <div class="collapse" id="sidebarEcommerce">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ecommerce/product-list"))" class="sub-nav-link">
+                                Products
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ecommerce/product-details"))"
+                               class="sub-nav-link">
+                                Product Details
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/ecommerce/product-add"))"
+                               class="sub-nav-link">
+                                Create Product
+                            </a>
+                        </li>
+
+                        <li class="sub-nav-item">
+                            <a href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ecommerce/customer-list"))" class="sub-nav-link">
+                                Customers
+                            </a>
+                        </li>
+
+                        <li class="sub-nav-item">
+                            <a href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/ecommerce/seller-list"))"
+                               class="sub-nav-link">
+                                Sellers
+                            </a>
+                        </li>
+
+                        <li class="sub-nav-item">
+                            <a href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/ecommerce/orders-list"))"
+                               class="sub-nav-link">
+                                Orders
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ecommerce/order-details"))" class="sub-nav-link">
+                                Order Details
+                            </a>
+                        </li>
+
+                        <li class="sub-nav-item">
+                            <a href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/ecommerce/inventory"))"
+                               class="sub-nav-link">
+                                Inventory
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/apps/chat"))">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:comment-dots-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Chat </span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/apps/email"))">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:email-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Email </span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarCalendar" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarCalendar">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:calendar-1-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Calendar </span>
+                </a>
+                <div class="collapse" id="sidebarCalendar">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/apps/calendar/schedule"))">
+                                Schedule
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/apps/calendar/integration"))">
+                                Integration
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/apps/calendar/help"))">
+                                Help
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/apps/todo"))">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:ticket-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Todo </span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/apps/social"))">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:squinting-face-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Social </span>
+                    <span class="badge badge-pill text-end bg-danger">Hot</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/apps/contacts"))">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:profile-circle-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Contacts </span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarInvoice" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarInvoice">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:invoice-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Invoices </span>
+                </a>
+                <div class="collapse" id="sidebarInvoice">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/apps/invoices"))">Invoices</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/apps/invoice/details"))">
+                                Invoice Details
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="menu-title">Custom</li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarPages" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarPages">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:copy-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Pages </span>
+                </a>
+                <div class="collapse" id="sidebarPages">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/pages/starter"))">Welcome</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/pages/faqs"))">FAQs</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/pages/profile"))">Profile</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/pages/coming-soon"))">Coming Soon</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/pages/contact-us"))">Contact Us</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/pages/about-us"))">About Us</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/pages/team"))">Our Team</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/pages/timeline"))">Timeline</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/pages/pricing"))">Pricing</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/pages/maintenance"))">
+                                Maintenance
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/error/404"))">404 Error</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/error/404-2"))">404 Error 2</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/error/404-alt"))">404 Error (alt)</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- end Pages Menu -->
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarAuthentication" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarAuthentication">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:lock-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Authentication </span>
+                </a>
+                <div class="collapse" id="sidebarAuthentication">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/auth/signin"))">Sign In</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/auth/signin-2"))">Sign In 2</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/auth/signup"))">Sign Up</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/auth/signup-2"))">Sign Up 2</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/auth/reset-password"))">Reset Password</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/auth/reset-password-2"))">Reset Password 2</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/auth/lock-screen"))">Lock Screen</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/auth/lock-screen-2"))">
+                                Lock Screen 2
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/widgets"))">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:gift-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text">Widgets</span>
+                    <span class="badge bg-info badge-pill text-end">9+</span>
+                </a>
+            </li>
+            <!-- end Demo Menu Item -->
+
+            <li class="menu-title">Components</li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarBaseUI" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarBaseUI">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:briefcase-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Base UI </span>
+                </a>
+                <div class="collapse" id="sidebarBaseUI">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/accordion"))">Accordion</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/alerts"))">Alerts</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/avatar"))">Avatar</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/badge"))">Badge</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/breadcrumb"))">Breadcrumb</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/buttons"))">Buttons</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/card"))">Card</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/carousel"))">Carousel</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/collapse"))">Collapse</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/dropdown"))">Dropdown</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/list-group"))">List Group</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/modal"))">Modal</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/tabs"))">Tabs</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/offcanvas"))">Offcanvas</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/pagination"))">Pagination</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/placeholders"))">Placeholders</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/popovers"))">Popovers</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/progress"))">Progress</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/spinners"))">Spinners</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/toasts"))">Toasts</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/ui/tooltips"))">Tooltips</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- end Base UI Menu -->
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarExtendedUI" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarExtendedUI">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:component-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Advanced UI </span>
+                </a>
+                <div class="collapse" id="sidebarExtendedUI">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/advanced/sweet-alert"))">
+                                Sweet Alert
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/advanced/swiper-slider"))">
+                                Swiper Slider
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/advanced/scrollbar"))">
+                                Scrollbar
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/advanced/toastify"))">
+                                Toastify
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- end Extended UI Menu -->
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarCharts" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarCharts">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:3d-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Charts </span>
+                </a>
+                <div class="collapse" id="sidebarCharts">
+                    <ul class="nav sub-navbar-nav">
+
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/bubble"))">
+                                Bubble
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/candlestick"))">
+                                Candlestick
+                            </a>
+                        </li>
+
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/heatmap"))">
+                                Heatmap
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/timeline"))">
+                                Timeline
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/boxplot"))">
+                                Boxplot
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/treemap"))">
+                                Treemap
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/pie"))">Pie</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/radar"))">
+                                Radar
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/radialbar"))">
+                                RadialBar
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/scatter"))">
+                                Scatter
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/polar-area"))">
+                                Polar Area
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/bar"))">Bar</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/mixed"))">
+                                Mixed
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/area"))">Area</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/column"))">
+                                Column
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/charts/line"))">Line</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- end Chart library Menu -->
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarForms" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarForms">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:cheque-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Forms </span>
+                </a>
+                <div class="collapse" id="sidebarForms">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/forms/basic"))">Basic Elements</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/forms/checkbox-radio"))">
+                                Checkbox &amp; Radio
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/forms/choices"))">Choice Select</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/forms/clipboard"))">Clipboard</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/forms/flatepicker"))">
+                                Flatepicker
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/forms/validation"))">Validation</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/forms/wizard"))">Wizard</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/forms/file-upload"))">
+                                File Upload
+                            </a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/forms/editors"))">Editors</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/forms/input-mask"))">Input Mask</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/forms/slider"))">
+                                Slider
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- end Form Menu -->
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarTables" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarTables">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:box-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Tables </span>
+                </a>
+                <div class="collapse" id="sidebarTables">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/tables/basic"))">Basic Tables</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/tables/gridjs"))">Grid Js</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- end Table Menu -->
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarIcons" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarIcons">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:lightning-1-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Icons </span>
+                </a>
+                <div class="collapse" id="sidebarIcons">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/icons/boxicons"))">Boxicons</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/icons/iconamoon"))">IconaMoon Icons</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- end Icons library Menu -->
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarMaps" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarMaps">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:location-pin-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Maps </span>
+                </a>
+                <div class="collapse" id="sidebarMaps">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/maps/google"))">Google Maps</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0)"
+                               @onclick="@(() => HandleRouteChange("/maps/vector"))">Vector Maps</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- end Map Menu -->
+
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:badge-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text">Badge Menu</span>
+                    <span class="badge bg-danger badge-pill text-end">1</span>
+                </a>
+            </li>
+            <!-- end Demo Menu Item -->
+
+            <li class="nav-item">
+                <a class="nav-link menu-arrow" href="#sidebarMultiLevelDemo" data-bs-toggle="collapse" role="button"
+                   aria-expanded="false" aria-controls="sidebarMultiLevelDemo">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:folder-add-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Menu Item </span>
+                </a>
+                <div class="collapse" id="sidebarMultiLevelDemo">
+                    <ul class="nav sub-navbar-nav">
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link" href="javascript:void(0);">Menu Item 1</a>
+                        </li>
+                        <li class="sub-nav-item">
+                            <a class="sub-nav-link menu-arrow" href="#sidebarItemDemoSubItem" data-bs-toggle="collapse"
+                               role="button" aria-expanded="false" aria-controls="sidebarItemDemoSubItem">
+                                <span> Menu Item 2 </span>
+                            </a>
+                            <div class="collapse" id="sidebarItemDemoSubItem">
+                                <ul class="nav sub-navbar-nav">
+                                    <li class="sub-nav-item">
+                                        <a class="sub-nav-link" href="javascript:void(0);">
+                                            Menu Sub item
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <!-- end Demo Menu Item -->
+
+            <li class="nav-item">
+                <a class="nav-link disabled" href="javascript:void(0);">
+                    <span class="nav-icon">
+                        <iconify-icon icon="iconamoon:unavailable-duotone">
+                        </iconify-icon>
+                    </span>
+                    <span class="nav-text"> Disabled Item </span>
+                </a>
+            </li>
+            <!-- end Demo Menu Item -->
+        </ul>
+    </div>
+</div>
+
+@code {
+
+private async Task HandleRouteChange(string route)
+{
+var currentUri = NavigationManager.Uri;
+var newUri = NavigationManager.BaseUri + route.TrimStart('/');
+if (currentUri.Equals(newUri, StringComparison.OrdinalIgnoreCase))
+{
+await JsRuntime.InvokeVoidAsync("loadTheme");
+await JsRuntime.InvokeVoidAsync("loadApps");
+}
+else
+{
+NavigationManager.NavigateTo(route);
+}
+}
+
+private async Task sidenavMenuToggler(){
+await JsRuntime.InvokeVoidAsync("sidenavMenuToggler");
+}
+
+}

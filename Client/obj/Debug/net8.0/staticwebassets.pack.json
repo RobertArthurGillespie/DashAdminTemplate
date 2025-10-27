@@ -1,24 +1,932 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Client\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Client\\wwwroot\\icon-512.png",
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\css\\app.min.css",
+      "PackagePath": "staticwebassets\\css\\app.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\css\\icons.css",
+      "PackagePath": "staticwebassets\\css\\icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\css\\icons.min.css",
+      "PackagePath": "staticwebassets\\css\\icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\css\\vendors.css",
+      "PackagePath": "staticwebassets\\css\\vendors.css"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\css\\vendors.min.css",
+      "PackagePath": "staticwebassets\\css\\vendors.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\icon-512.png",
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
-      "Id": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Client\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\google-analytics.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\google-analytics.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\google-chrome.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\google-chrome.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\google-mail.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\google-mail.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\google-meet.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\google-meet.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\help-1.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\help-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\help-2.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\help-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\help-3.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\help-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\help-4.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\help-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\help-5.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\help-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\help-6.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\help-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\hubspot.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\hubspot.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\intercom.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\intercom.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\microsoft-outlook.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\microsoft-outlook.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\microsoft-team-conference.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\microsoft-team-conference.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\sales-force.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\sales-force.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\slack.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\stripe.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\stripe.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\web-hooks.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\web-hooks.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\zapier.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\zapier.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-calendar\\zoom.png",
+      "PackagePath": "staticwebassets\\images\\app-calendar\\zoom.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\acc-wallpaper.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\acc-wallpaper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\favorite-1.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\favorite-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\favorite-2.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\favorite-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\favorite-3.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\favorite-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\favorite-4.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\favorite-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\group-1.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\group-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\group-2.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\group-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\group-3.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\group-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\group-4.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\group-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\group-5.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\group-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\group-6.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\group-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\group-7.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\group-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\group-8.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\group-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\group-9.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\group-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\memory.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\memory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\post-1.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\post-2.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\post-3.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\post-4.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\post-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\post-6.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\post-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\post-7.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\post-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\app-social\\wallpaper.jpg",
+      "PackagePath": "staticwebassets\\images\\app-social\\wallpaper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\bg-overlay.svg",
+      "PackagePath": "staticwebassets\\images\\bg-overlay.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\brands\\bitbucket.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\bitbucket.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\brands\\dribbble.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\dribbble.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\brands\\dropbox.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\dropbox.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\brands\\github.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\github.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\brands\\slack.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\flags\\french.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\french.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\flags\\germany.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\germany.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\flags\\italy.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\italy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\flags\\russia.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\russia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\flags\\spain.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\spain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\flags\\us.jpg",
+      "PackagePath": "staticwebassets\\images\\flags\\us.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\logo-dark-full.png",
+      "PackagePath": "staticwebassets\\images\\logo-dark-full.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\logo-light-full.png",
+      "PackagePath": "staticwebassets\\images\\logo-light-full.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\logo-light.png",
+      "PackagePath": "staticwebassets\\images\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\logo-sm.png",
+      "PackagePath": "staticwebassets\\images\\logo-sm.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\products\\product-1(1).png",
+      "PackagePath": "staticwebassets\\images\\products\\product-1(1).png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\products\\product-1(2).png",
+      "PackagePath": "staticwebassets\\images\\products\\product-1(2).png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\products\\product-1(3).png",
+      "PackagePath": "staticwebassets\\images\\products\\product-1(3).png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\products\\product-1(4).png",
+      "PackagePath": "staticwebassets\\images\\products\\product-1(4).png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\products\\product-2.png",
+      "PackagePath": "staticwebassets\\images\\products\\product-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\products\\product-3.png",
+      "PackagePath": "staticwebassets\\images\\products\\product-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\products\\product-4.png",
+      "PackagePath": "staticwebassets\\images\\products\\product-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\products\\product-5.png",
+      "PackagePath": "staticwebassets\\images\\products\\product-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\products\\product-6.png",
+      "PackagePath": "staticwebassets\\images\\products\\product-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\profile-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\sign-in.svg",
+      "PackagePath": "staticwebassets\\images\\sign-in.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\small\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\small\\img-10.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\small\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\small\\img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\small\\img-4.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\small\\img-5.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\small\\img-6.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\small\\img-7.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\small\\img-8.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\small\\img-9.jpg",
+      "PackagePath": "staticwebassets\\images\\small\\img-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-10.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-11.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-12.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-8.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\avatar-9.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\avatar-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\chat.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\chat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\images\\users\\dummy-avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\users\\dummy-avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Rober\\source\\repos\\AdminDashTemplate\\Client\\wwwroot\\manifest.json",
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\app.min.js",
+      "PackagePath": "staticwebassets\\js\\app.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-area.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-area.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-bar.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-bar.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-boxplot.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-boxplot.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-bubble.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-bubble.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-candlestick.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-candlestick.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-column.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-column.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-heatmap.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-heatmap.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-line.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-line.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-mixed.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-mixed.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-pie.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-pie.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-polar-area.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-polar-area.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-radar.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-radar.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-radialbar.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-radialbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-scatter.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-scatter.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-timeline.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-timeline.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\apexchart-treemap.js",
+      "PackagePath": "staticwebassets\\js\\components\\apexchart-treemap.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\extended-sweetalert.js",
+      "PackagePath": "staticwebassets\\js\\components\\extended-sweetalert.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\form-advanced.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-advanced.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\form-clipboard.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-clipboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\form-fileupload.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-fileupload.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\form-flatepicker.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-flatepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\form-quilljs.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-quilljs.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\form-simplemde.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-simplemde.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\form-slider.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\form-touchspin.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-touchspin.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\form-typehead.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-typehead.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\form-wizard.js",
+      "PackagePath": "staticwebassets\\js\\components\\form-wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\maps-canada.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-canada.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\maps-google.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-google.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\maps-in-mill-en.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-in-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\maps-iraq.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-iraq.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\maps-russia.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-russia.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\maps-spain.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-spain.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\maps-us-aea-en.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-us-aea-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\maps-us-lcc-en.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-us-lcc-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\maps-us-merc-en.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-us-merc-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\maps-us-mill-en.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-us-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\maps-vector.js",
+      "PackagePath": "staticwebassets\\js\\components\\maps-vector.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\table-gridjs.js",
+      "PackagePath": "staticwebassets\\js\\components\\table-gridjs.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\components\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\js\\components\\ui-toasts.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\config.js",
+      "PackagePath": "staticwebassets\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\config.min.js",
+      "PackagePath": "staticwebassets\\js\\config.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\app-calendar.js",
+      "PackagePath": "staticwebassets\\js\\pages\\app-calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\app-chat.js",
+      "PackagePath": "staticwebassets\\js\\pages\\app-chat.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\app-ecommerce-customer.js",
+      "PackagePath": "staticwebassets\\js\\pages\\app-ecommerce-customer.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\app-ecommerce-product.js",
+      "PackagePath": "staticwebassets\\js\\pages\\app-ecommerce-product.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\app-ecommerce-seller-add.js",
+      "PackagePath": "staticwebassets\\js\\pages\\app-ecommerce-seller-add.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\app-ecommerce-seller-detail.js",
+      "PackagePath": "staticwebassets\\js\\pages\\app-ecommerce-seller-detail.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\app-email.js",
+      "PackagePath": "staticwebassets\\js\\pages\\app-email.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\coming-soon.js",
+      "PackagePath": "staticwebassets\\js\\pages\\coming-soon.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\dashboard.analytics.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard.analytics.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\dashboard.finance.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard.finance.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\dashboard.sales.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard.sales.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\profile.js",
+      "PackagePath": "staticwebassets\\js\\pages\\profile.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\widgets.js",
+      "PackagePath": "staticwebassets\\js\\pages\\widgets.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\vendors.js",
+      "PackagePath": "staticwebassets\\js\\vendors.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\vendors.min.js",
+      "PackagePath": "staticwebassets\\js\\vendors.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\vendors.min.js.map",
+      "PackagePath": "staticwebassets\\js\\vendors.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\manifest.json",
       "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\app.scss",
+      "PackagePath": "staticwebassets\\scss\\app.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_alerts.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_alerts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_avatar.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_backgrounds.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_backgrounds.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_docs.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_docs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_helper.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_helper.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_switch.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\components\\_widgets.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_widgets.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\config\\_theme-mode.scss",
+      "PackagePath": "staticwebassets\\scss\\config\\_theme-mode.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\config\\_variables-custom.scss",
+      "PackagePath": "staticwebassets\\scss\\config\\_variables-custom.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\config\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\scss\\config\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\config\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\config\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\icons.scss",
+      "PackagePath": "staticwebassets\\scss\\icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\icons\\_boxicons.scss",
+      "PackagePath": "staticwebassets\\scss\\icons\\_boxicons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\pages\\_app-chat.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_app-chat.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\pages\\_app-ecommerce.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_app-ecommerce.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\pages\\_app-email.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_app-email.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\pages\\_app-file-manager.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_app-file-manager.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\pages\\_app-social.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_app-social.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\pages\\_authentication.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_authentication.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\pages\\_icon-demo.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_icon-demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\pages\\_pricing.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_pricing.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\pages\\_timeline.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_apexcharts.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_apexcharts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_calendar.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_calendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_choice.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_choice.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_dragula.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_dragula.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_dropzone.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_dropzone.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_editors.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_editors.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_flatpicker.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_flatpicker.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_google-map.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_google-map.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_gridjs.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_gridjs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_prismjs.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_prismjs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_range-slider.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_range-slider.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_simplebar.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_simplebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_sweetalert.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_sweetalert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_swiper.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_swiper.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_toastify.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_toastify.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\plugins\\_vector-map.scss",
+      "PackagePath": "staticwebassets\\scss\\plugins\\_vector-map.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\structure\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\structure\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\structure\\_page-title.scss",
+      "PackagePath": "staticwebassets\\scss\\structure\\_page-title.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\structure\\_topbar.scss",
+      "PackagePath": "staticwebassets\\scss\\structure\\_topbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\scss\\structure\\_vertical.scss",
+      "PackagePath": "staticwebassets\\scss\\structure\\_vertical.scss"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AdminDashTemplate.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

@@ -1,0 +1,203 @@
+@page "/charts/line"
+
+@inject IJSRuntime JsRuntime;
+
+<PageBreadcrumb Title="Line Charts" SubTitle="Charts"/>
+
+<div class="row">
+    <div class="col-xl-9">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title anchor" id="overview">
+                    Overview
+                </h5>
+
+                <p class="mb-0">
+            <span class="fw-medium">
+                Find the JS file for the following
+                chart at:
+            </span>
+                    <code>
+                        /js/components/apexchart-line.js
+                    </code>
+                </p>
+            </div>
+            <!-- end card-body -->
+        </div>
+        <!-- end card -->
+        
+
+        <div class="card">
+            <div class="card-body">
+                <h4
+                    class="card-title mb-3 anchor"
+                    id="syncing">
+                    Syncing charts
+                </h4>
+                <div id="line-chart-syncing2"></div>
+                <div dir="ltr">
+                    <div
+                        id="line-chart-syncing"
+                        class="apex-charts">
+                    </div>
+                </div>
+            </div>
+            <!-- end card body-->
+        </div>
+        <!-- end card -->
+
+
+        <div class="card">
+            <div class="card-body">
+                <h4
+                    class="card-title mb-3 anchor"
+                    id="missing">
+                    Missing / Null values
+                </h4>
+                <div dir="ltr">
+                    <div
+                        id="line-chart-missing"
+                        class="apex-charts">
+                    </div>
+                </div>
+            </div>
+            <!-- end card body-->
+        </div>
+        <!-- end card -->
+
+        <div class="card">
+            <div class="card-body">
+                <h4
+                    class="card-title mb-3 anchor"
+                    id="dashed">
+                    Dashed Line Chart
+                </h4>
+                <div dir="ltr">
+                    <div
+                        id="line-chart-dashed"
+                        class="apex-charts">
+                    </div>
+                </div>
+            </div>
+            <!-- end card body-->
+        </div>
+        <!-- end card -->
+
+        <div class="card">
+            <div class="card-body">
+                <h4
+                    class="card-title mb-3 anchor"
+                    id="stepline">
+                    Stepline Chart
+                </h4>
+                <div dir="ltr">
+                    <div
+                        id="line-chart-stepline"
+                        class="apex-charts">
+                    </div>
+                </div>
+            </div>
+            <!-- end card body-->
+        </div>
+        <!-- end card -->
+
+        <div class="card">
+            <div class="card-body">
+                <h4
+                    class="card-title mb-3 anchor"
+                    id="brush">
+                    Brush Chart
+                </h4>
+                <div dir="ltr">
+                    <div
+                        id="chart-line2"
+                        class="apex-charts">
+                    </div>
+                    <div
+                        id="chart-line"
+                        class="apex-charts">
+                    </div>
+                </div>
+            </div>
+            <!-- end card body-->
+        </div>
+        <!-- end card -->
+
+        <div class="card">
+            <div class="card-body">
+                <h4
+                    class="card-title mb-3 anchor"
+                    id="realtime">
+                    Realtime Chart
+                </h4>
+                <div dir="ltr">
+                    <div
+                        id="line-chart-realtime"
+                        class="apex-charts">
+                    </div>
+                </div>
+            </div>
+            <!-- end card body-->
+        </div>
+        <!-- end card -->
+    </div>
+    <!-- end col -->
+
+    <div class="col-xl-3">
+        <div class="card docs-nav">
+            <ul class="nav bg-transparent flex-column">
+                <li class="nav-item">
+                    <a href="/charts/line#overview" class="nav-link">
+                        Overview
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/line#syncing" class="nav-link">
+                        Syncing charts
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/line#missing" class="nav-link">
+                        Missing / Null values
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/line#dashed" class="nav-link">
+                        Dashed Line Chart
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/line#stepline" class="nav-link">
+                        Stepline Chart
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/line#brush" class="nav-link">
+                        Brush Chart
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/line#realtime" class="nav-link">
+                        Realtime Chart
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+@code {
+    private IJSObjectReference? _module;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./js/components/apexchart-line.js");
+            await JsRuntime.InvokeVoidAsync("loadLineCharts");
+            await JsRuntime.InvokeVoidAsync("loadTheme");
+            await JsRuntime.InvokeVoidAsync("loadApps");
+        }
+    }
+
+}

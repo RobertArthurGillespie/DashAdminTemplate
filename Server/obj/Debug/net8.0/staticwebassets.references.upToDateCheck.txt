@@ -1,1 +1,6 @@
 C:\Users\Rober\source\repos\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.build.json

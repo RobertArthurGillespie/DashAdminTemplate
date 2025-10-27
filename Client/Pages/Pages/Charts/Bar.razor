@@ -1,0 +1,175 @@
+@page "/charts/bar"
+
+@inject IJSRuntime JsRuntime;
+
+<PageBreadcrumb Title="Bar Charts" SubTitle="Charts"/>
+
+<div class="row">
+    <div class="col-xl-9">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title anchor" id="overview">
+                    Overview
+                </h5>
+                <p class="mb-0">
+            <span class="fw-medium">
+                Find the JS file for the following
+                chart at:
+            </span>
+                    <code>
+                        /js/components/apexchart-bar.js
+                    </code>
+                </p>
+            </div>
+            <!-- end card-body -->
+        </div>
+        <!-- end card -->
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title anchor" id="basic">
+                    Basic Bar Chart
+                    <a
+                        class="anchor-link"
+                        href="#basic">
+                        #
+                    </a>
+                </h5>
+
+                <div
+                    id="basic-bar"
+                    class="apex-charts">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title anchor" id="grouped">
+                    Grouped Bar Chart
+                    <a
+                        class="anchor-link"
+                        href="#grouped">
+                        #
+                    </a>
+                </h5>
+
+                <div
+                    id="grouped-bar"
+                    class="apex-charts text-white">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title anchor" id="stacked">
+                    Stacked Bar Chart
+                    <a
+                        class="anchor-link"
+                        href="#stacked">
+                        #
+                    </a>
+                </h5>
+
+                <div
+                    id="stacked-bar"
+                    class="apex-charts"
+                    dir="ltr">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5
+                    class="card-title anchor"
+                    id="full-stacked">
+                    100% Stacked Bar Chart
+                    <a
+                        class="anchor-link"
+                        href="#full-stacked">
+                        #
+                    </a>
+                </h5>
+
+                <div
+                    id="full-stacked-bar"
+                    class="apex-charts">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title anchor" id="negative">
+                    Bar with Negative Values
+                    <a
+                        class="anchor-link"
+                        href="#negative">
+                        #
+                    </a>
+                </h5>
+
+                <div
+                    id="negative-bar"
+                    class="apex-charts">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end col -->
+
+    <div class="col-xl-3">
+        <div class="card docs-nav">
+            <ul class="nav bg-transparent flex-column">
+                <li class="nav-item">
+                    <a href="/charts/bar#overview" class="nav-link">
+                        Overview
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/bar#basic" class="nav-link">
+                        Basic Bar Chart
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/bar#grouped" class="nav-link">
+                        Grouped Bar Chart
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/bar#stacked" class="nav-link">
+                        Stacked Bar Chart
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/bar#full-stacked" class="nav-link">
+                        100% Stacked Bar Chart
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/charts/bar#negative" class="nav-link">
+                        Bar with Negative Values
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+@code {
+    private IJSObjectReference? _module;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./js/components/apexchart-bar.js");
+            await JsRuntime.InvokeVoidAsync("loadBarCharts");
+            await JsRuntime.InvokeVoidAsync("loadTheme");
+            await JsRuntime.InvokeVoidAsync("loadApps");
+        }
+    }
+
+}

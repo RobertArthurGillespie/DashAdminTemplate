@@ -1,0 +1,20 @@
+@inherits LayoutComponentBase
+
+<div class="wrapper">
+
+    <AdminDashTemplate.Client.Pages.Layout.Shared.Topbar/>
+
+    <AdminDashTemplate.Client.Pages.Layout.Shared.MainNav/>
+
+    <div class="page-content">
+        
+        <div class="container-xxl">
+            @Body
+        </div>
+
+        <AdminDashTemplate.Client.Pages.Layout.Shared.Footer/>
+
+    </div>
+</div>
+
+<AdminDashTemplate.Client.Pages.Layout.Shared.RightSidebar/>
