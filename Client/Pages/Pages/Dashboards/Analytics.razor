@@ -2,6 +2,8 @@
 @page "/analytics"
 
 @inject IJSRuntime JsRuntime;
+@inject HttpClient Http; // Inject the DbContext
+@implements IDisposable // Required for DotNetObjectReference cleanup
 
 <PageBreadcrumb Title="Analytics" SubTitle="Dashboards"/>
 
@@ -25,7 +27,7 @@
                             <div class="col-6 text-end">
                                 <p
                                     class="text-muted mb-0 text-truncate">
-                                    Page View
+                                    Inspections
                                 </p>
                                 <h3
                                     class="text-dark mt-1 mb-0">
@@ -58,7 +60,7 @@
                             <div class="col-6 text-end">
                                 <p
                                     class="text-muted mb-0 text-truncate">
-                                    Clicks
+                                    Certifications
                                 </p>
                                 <h3
                                     class="text-dark mt-1 mb-0">
@@ -91,7 +93,7 @@
                             <div class="col-6 text-end">
                                 <p
                                     class="text-muted mb-0 text-truncate">
-                                    Conversions
+                                    Reductions
                                 </p>
                                 <h3
                                     class="text-dark mt-1 mb-0">
@@ -124,7 +126,7 @@
                             <div class="col-6 text-end">
                                 <p
                                     class="text-muted mb-0 text-truncate">
-                                    New Users
+                                    Routes
                                 </p>
                                 <h3
                                     class="text-dark mt-1 mb-0">
@@ -151,7 +153,7 @@
                     <div class="col-lg-4">
                         <div class="p-3">
                             <h5 class="card-title">
-                                Conversions
+                               Defensive Actions Success
                             </h5>
                             <div
                                 id="conversions"
@@ -165,7 +167,7 @@
                                     </p>
                                     <h3
                                         class="text-dark mb-3">
-                                        23.5k
+                                        85%
                                     </h3>
                                 </div>
                                 <!-- end col -->
@@ -176,7 +178,7 @@
                                     </p>
                                     <h3
                                         class="text-dark mb-3">
-                                        41.05k
+                                        80%
                                     </h3>
                                 </div>
                                 <!-- end col -->
@@ -198,7 +200,7 @@
                             <div
                                 class="d-flex justify-content-between align-items-center">
                                 <h4 class="card-title">
-                                    Performance
+                                    Fleet Safety Performance
                                 </h4>
                                 <div>
                                     <button
@@ -259,7 +261,7 @@
             <div
                 class="d-flex card-header justify-content-between align-items-center border-bottom border-dashed">
                 <h4 class="card-title">
-                    Sessions by Country
+                    Regional Fleet Safety Performance
                 </h4>
                 <div class="dropdown">
                     <a
@@ -511,7 +513,7 @@
             <div
                 class="d-flex card-header justify-content-between align-items-center border-bottom border-dashed">
                 <h4 class="card-title">
-                    Session By Browser
+                    Performance by Vehicle Type
                 </h4>
                 <div class="dropdown">
                     <a
@@ -555,7 +557,7 @@
                     <div
                         class="d-flex justify-content-between align-items-center p-2">
                     <span class="align-middle fw-medium">
-                        Chrome
+                            Light-Duty Vehicles (LDV)
                     </span>
                         <span class="fw-semibold text-muted">
                         62.5%
@@ -568,7 +570,7 @@
                     <div
                         class="d-flex justify-content-between align-items-center p-2">
                     <span class="align-middle fw-medium">
-                        Firefox
+                            Medium-Duty Vehicles (MDV)
                     </span>
                         <span class="fw-semibold text-muted">
                         12.3%
@@ -581,7 +583,7 @@
                     <div
                         class="d-flex justify-content-between align-items-center p-2">
                     <span class="align-middle fw-medium">
-                        Safari
+                            Heavy-Duty Vehicles (HDV)
                     </span>
                         <span class="fw-semibold text-muted">
                         9.86%
@@ -594,7 +596,7 @@
                     <div
                         class="d-flex justify-content-between align-items-center p-2">
                     <span class="align-middle fw-medium">
-                        Brave
+                            Service / Utility Vehicles
                     </span>
                         <span class="fw-semibold text-muted">
                         3.15%
@@ -607,7 +609,7 @@
                     <div
                         class="d-flex justify-content-between align-items-center p-2">
                     <span class="align-middle fw-medium">
-                        Opera
+                            Passenger Vans / Shuttle Buses
                     </span>
                         <span class="fw-semibold text-muted">
                         3.01%
@@ -620,7 +622,7 @@
                     <div
                         class="d-flex justify-content-between align-items-center p-2">
                     <span class="align-middle fw-medium">
-                        Falkon
+                            Site Transport Vehicles
                     </span>
                         <span class="fw-semibold text-muted">
                         2.8%
@@ -633,7 +635,7 @@
                     <div
                         class="d-flex justify-content-between align-items-center p-2">
                     <span class="align-middle fw-medium">
-                        Other
+                            Flatbeds & Equipment Haulers
                     </span>
                         <span class="fw-semibold text-muted">
                         6.38%
@@ -651,7 +653,7 @@
             <div
                 class="card-header d-flex align-items-center justify-content-between gap-2">
                 <h4 class="card-title flex-grow-1">
-                    Top Pages
+                    Top Fleet Performance
                 </h4>
                 <div>
                     <a
@@ -667,16 +669,16 @@
                     <thead class="bg-light bg-opacity-50">
                     <tr>
                         <th class="text-muted py-1">
-                            Page Path
+                            Region
                         </th>
                         <th class="text-muted py-1">
-                            Page Views
+                            Total Performance Index
                         </th>
                         <th class="text-muted py-1">
-                            Avg Time on Page
+                            Dedication Index
                         </th>
                         <th class="text-muted py-1">
-                            Exit Rate
+                            Incident Reduction
                         </th>
                     </tr>
                     </thead>
@@ -686,7 +688,7 @@
                             <a
                                 href="#"
                                 class="text-muted">
-                                reback/dashboard
+                                Toronto, Canada
                             </a>
                         </td>
                         <td>4265</td>
@@ -703,7 +705,7 @@
                             <a
                                 href="#"
                                 class="text-muted">
-                                reback/chat
+                                New York, U.S.
                             </a>
                         </td>
                         <td>2584</td>
@@ -720,7 +722,7 @@
                             <a
                                 href="#"
                                 class="text-muted">
-                                reback/auth-login
+                                Moscow, Russia
                             </a>
                         </td>
                         <td>3369</td>
@@ -737,7 +739,7 @@
                             <a
                                 href="#"
                                 class="text-muted">
-                                reback/email
+                                Buenos Aires, Brazil
                             </a>
                         </td>
                         <td>985</td>
@@ -754,7 +756,7 @@
                             <a
                                 href="#"
                                 class="text-muted">
-                                reback/social
+                                Guangzhou, China
                             </a>
                         </td>
                         <td>653</td>
@@ -775,8 +777,10 @@
 
 @code {
     private IJSObjectReference? _module;
+    // Object reference for JS interop, used to call C# from JS
+    private DotNetObjectReference<Analytics>? _dotNetRef;
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+        /*protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
@@ -785,6 +789,52 @@
             await JsRuntime.InvokeVoidAsync("loadTheme");
             await JsRuntime.InvokeVoidAsync("loadApps");
         }
-    }
+    }*/
+
+    //private IJSObjectReference? _module;
+    // Object reference for JS interop, used to call C# from JS
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+        {
+            if (firstRender)
+            {
+                // Create the object reference
+                _dotNetRef = DotNetObjectReference.Create(this);
+
+                // Import the JS module
+                _module = await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./js/pages/dashboard.analytics.js");
+
+                // Pass the DotNetObjectReference to the JavaScript function
+                await JsRuntime.InvokeVoidAsync("loadAnalytics", _dotNetRef);
+
+                // These calls were present in your original code
+                await JsRuntime.InvokeVoidAsync("loadTheme");
+                await JsRuntime.InvokeVoidAsync("loadApps");
+            }
+        }
+
+        // This method is called from JavaScript (in dashboard.analytics.js)
+        [JSInvokable]
+        public async Task<int> GetTotalReputation()
+        {
+                    try
+                    {
+                        // NEW LOGIC: Call the API endpoint we assume you will create on the Server project.
+                        // We expect the server to return a single integer value (the sum).
+                        var totalReputation = await Http.GetFromJsonAsync<int>("api/Sim/TotalReputation");
+                        return totalReputation;
+                    }
+                    catch (Exception ex)
+                    {
+                        // Log the exception, which is likely a network or deserialization error
+                        Console.WriteLine($"Error fetching total reputation via HTTP: {ex.Message}");
+                        return 0;
+                    }
+        }
+
+        // Standard Blazor lifecycle method for cleaning up IDisposable resources
+        public void Dispose()
+        {
+            _dotNetRef?.Dispose();
+        }
 
 }

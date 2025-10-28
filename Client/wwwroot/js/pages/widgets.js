@@ -10,8 +10,9 @@ window.loadWidgets = function () {
     //
     try {
         const ConversionsChart = document.getElementById("conversions");
-
+        console.log("initializing conversion charts");
         if (ConversionsChart) {
+            console.log("conversion charts are present");
             let colors = ["#7f56da", "#22c55e"];
 
             const dataColors = ConversionsChart.dataset.colors;
@@ -26,18 +27,18 @@ window.loadWidgets = function () {
                 },
                 plotOptions: {
                     radialBar: {
-                        startAngle: -135,
-                        endAngle: 135,
+                        startAngle: 20,
+                        endAngle: 30,
                         dataLabels: {
                             name: {
                                 fontSize: '14px',
-                                color: undefined,
+                                color: 'red',
                                 offsetY: 100
                             },
                             value: {
-                                offsetY: 55,
+                                offsetY: 35,
                                 fontSize: '20px',
-                                color: undefined,
+                                color: 'blue',
                                 formatter: function (val) {
                                     return val + "%";
                                 }
@@ -64,8 +65,8 @@ window.loadWidgets = function () {
                     dashArray: 4
                 },
                 colors: colors,
-                series: [65.2],
-                labels: ['Returning Customer'],
+                series: [15.2],
+                labels: ['Total Dedication Scores'],
                 responsive: [{
                     breakpoint: 380,
                     options: {
@@ -83,7 +84,7 @@ window.loadWidgets = function () {
                     }
                 }
             };
-
+            console.log("options: " + options.plotOptions.radialBar.startAngle + " is angle 1 and angle 2 is: " + options.plotOptions.radialBar.startAngle);
             const chart = new ApexCharts(ConversionsChart, options);
             chart.render();
         } else {

@@ -45,7 +45,7 @@ class VectorMap {
 
 }
 
-window.loadAnalytics = function () {
+window.loadAnalytics = async function (dotNetRef) {
 
     //
     // Conversions
@@ -106,8 +106,8 @@ window.loadAnalytics = function () {
                     dashArray: 4
                 },
                 colors: colors,
-                series: [65.2],
-                labels: ['Returning Customer'],
+                series: [85.2],
+                labels: ['Defensive Maneuver Rate'],
                 responsive: [{
                     breakpoint: 380,
                     options: {
@@ -141,16 +141,37 @@ window.loadAnalytics = function () {
     try {
         const performanceChart = document.getElementById("dash-performance-chart");
         console.log("loading performance chart");
+
+        // 1. Fetch the total reputation from the C# method
+        let totalReputation = 0;
+        if (dotNetRef) {
+            console.log("Calling C# GetTotalReputation...");
+            // Call the [JSInvokable] method in the Blazor component
+            totalReputation = await dotNetRef.invokeMethodAsync('GetTotalReputation');
+            console.log("Total Reputation fetched:", totalReputation);
+        } else {
+            console.error("DotNetObjectReference is missing. Using default value.");
+        }
+
         if (performanceChart) {
+            // Get the existing data array, keeping the subsequent values
+            const incidentsData = [30, 63, 40, 61, 49, 55, 42, 44, 78, 52, 63, 67];
+
+            // 2. Overwrite the first value (which was 30) with the new totalReputation
+            if (totalReputation > 0) {
+                incidentsData[0] = totalReputation;
+            }
+
             const options = {
                 series: [
                     {
-                        name: "Page Views",
+                        name: "Incidents",
                         type: "bar",
-                        data: [30, 63, 40, 68, 49, 61, 42, 44, 78, 52, 63, 67],
+                        // 3. Use the updated incidentsData array
+                        data: incidentsData,
                     },
                     {
-                        name: "Clicks",
+                        name: "Collision Events",
                         type: "area",
                         data: [8, 12, 7, 17, 21, 11, 5, 9, 7, 29, 12, 35],
                     },

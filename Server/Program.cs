@@ -1,10 +1,15 @@
 using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.EntityFrameworkCore;
+using AdminDashTemplate.Server.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<AVRContext>(options =>
+    options.UseSqlServer("Server=tcp:avrservice.database.windows.net,1433;Initial Catalog=BlazorStore;Persist Security Info=False;User ID=rob;Password=Rocket000!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
 
 var app = builder.Build();
 

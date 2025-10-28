@@ -23,3 +23,5 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Shared\obj\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Shared\obj\Debug\net8.0\refint\AdminDashTemplate.Shared.dll
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Shared\obj\Debug\net8.0\AdminDashTemplate.Shared.pdb
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Shared\obj\Debug\net8.0\ref\AdminDashTemplate.Shared.dll
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Shared\bin\Debug\net8.0\AdminDashTemplate.Shared.runtimeconfig.json
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Shared\obj\Debug\net8.0\AdminDashTemplate.Shared.genruntimeconfig.cache
