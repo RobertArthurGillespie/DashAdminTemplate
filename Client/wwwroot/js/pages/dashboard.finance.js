@@ -291,7 +291,7 @@ window.loadFinance = function () {
                     }
                 },
                 series: [140, 125, 85],
-                labels: ["Online", "Offline", "Direct"],
+                labels: ["Detection", "Defense", "Dedication"],
                 colors: ["var(--bs-primary)", "var(--bs-info)", "var(--bs-light)"],
                 dataLabels: {
                     enabled: false

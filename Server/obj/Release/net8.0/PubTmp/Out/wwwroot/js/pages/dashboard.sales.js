@@ -219,8 +219,8 @@ window.loadSales = function () {
                         }
                     }
                 },
-                series: [140, 125, 85, 60],
-                labels: ["Electronics", "Grocery", "Clothing", "Other"],
+                series: [140, 125, 85],
+                labels: ["Detection", "Dedication", "Defensive Driving"],
                 colors: colors,
                 dataLabels: {
                     enabled: false

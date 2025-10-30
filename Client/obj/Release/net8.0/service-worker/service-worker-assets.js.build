@@ -1,12 +1,12 @@
 self.assetsManifest = {
-  "version": "Q3Ilu7dd",
+  "version": "Ic0FZI8g",
   "assets": [
     {
-      "hash": "sha256-XgDp6QIbOfufCdMT8b7U0syskz6lfPJK/O9KD8JjyAE=",
+      "hash": "sha256-NXcjaWE4yX7Ykm544JMQOw5ik+u1f1Gqfwe2BSsxIAs=",
       "url": "_framework/AdminDashTemplate.Client.pdb"
     },
     {
-      "hash": "sha256-GfXUlCwG482jeC1J+AtcLREcqY/lpw7INL5Qp/RwDTk=",
+      "hash": "sha256-BjuX0wLiK9Gm2WO0ZxwqM4hrHv/uSM5SCAj5awT5Cac=",
       "url": "_framework/AdminDashTemplate.Client.wasm"
     },
     {
@@ -882,7 +882,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-xq+Gz6K+mywZoNwVYWK6XpcdHJ1Du2uKxViUg9XgiHk=",
+      "hash": "sha256-GXEIIL5AV0wVml0w5j2Q+RVNs4cHyzuO6MhEP/SSeEQ=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -1218,7 +1218,7 @@ self.assetsManifest = {
       "url": "images/logo-dark-full.png"
     },
     {
-      "hash": "sha256-9lgID1eoue7DeJcEzZ7gr/NMPr8mcJAKtIhb27e8WKA=",
+      "hash": "sha256-dSWJZWLft1ITgDy9hoAgYj+2l1hLZ3MBv3pzq9sxS9s=",
       "url": "images/logo-dark.png"
     },
     {
@@ -1226,7 +1226,7 @@ self.assetsManifest = {
       "url": "images/logo-light-full.png"
     },
     {
-      "hash": "sha256-QzzWnOpEFmug7B8lypC5YuRyjQ0EKV8ei7hl2DiHVlY=",
+      "hash": "sha256-5HRgNHlXjITezlqboRVoPKqdVRmNJhO1HCCfepQBCp0=",
       "url": "images/logo-light.png"
     },
     {
@@ -1590,11 +1590,11 @@ self.assetsManifest = {
       "url": "js/pages/dashboard.analytics.js"
     },
     {
-      "hash": "sha256-pupeV2t73imZwc7u7yw1V1rbuHlA6/EL/6K8jGv0T4c=",
+      "hash": "sha256-wzFqgPNR1VaKiD1bHIxXHuxufda//4NMTztpOWzMzxg=",
       "url": "js/pages/dashboard.finance.js"
     },
     {
-      "hash": "sha256-maY4ZAIpW5fvpKQ2b077QUN0Ji0DAxdEXaEFP1MtdC4=",
+      "hash": "sha256-Qhe0/GQw3ReKWylWVsUmGMrYa1KivdEnidIkGbIjxhc=",
       "url": "js/pages/dashboard.sales.js"
     },
     {

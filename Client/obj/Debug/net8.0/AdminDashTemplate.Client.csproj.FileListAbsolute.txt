@@ -2247,8 +2247,8 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\aub13iwx90-sb93lt1bf0.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\3tgo3iwq68-mnfon7mc66.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\frphujzi3q-0a2gfp2hmr.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\o19aqwd4xw-6crw5239m2.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\we9f4pdxl7-wv1ja2gayv.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\1cgt0u97w9-7svkmaa4vd.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\begouxysay-zxe21pkcuq.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\frphujzi3q-f6xadk3h6m.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\o19aqwd4xw-di6lob21y8.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\we9f4pdxl7-ye1trz38vo.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\1cgt0u97w9-tae9hvhjk8.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\begouxysay-hdpd9uh6zn.gz

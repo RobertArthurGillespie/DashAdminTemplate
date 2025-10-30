@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AdminDashTemplate.Client",
   "resources": {
-    "hash": "sha256-3jtv+mciBqF24vInR29X8PbxuK18PyLjo8lXGpxWPVg=",
+    "hash": "sha256-PF6lLWnKf3bT+m5D4/SDH/3bcGaWYrVRNXcZCs8xBvA=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -18,7 +18,7 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "AdminDashTemplate.Client.wasm": "sha256-GfXUlCwG482jeC1J+AtcLREcqY/lpw7INL5Qp/RwDTk=",
+      "AdminDashTemplate.Client.wasm": "sha256-BjuX0wLiK9Gm2WO0ZxwqM4hrHv/uSM5SCAj5awT5Cac=",
       "AdminDashTemplate.Shared.wasm": "sha256-A8xSsJurgBu5GT1FKwChiEpgRQw5boih8b5ZlSg91M0=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-Zjy0p9JWdqWoliNVjSelviD9+EfX3uaLAZCXs3atu40=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-svmq+EC2h+xpYUpeVfOL3mckD83o/gGL/u8Rp+sgHwY=",

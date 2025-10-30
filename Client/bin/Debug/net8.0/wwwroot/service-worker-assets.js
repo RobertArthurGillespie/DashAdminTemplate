@@ -1,20 +1,20 @@
 self.assetsManifest = {
-  "version": "3H7Hb3tv",
+  "version": "v4VtXAeH",
   "assets": [
     {
-      "hash": "sha256-57ufOcpXJ4MtjPieN3DIJh8o4yBycLfTJrgYZS67X/E=",
+      "hash": "sha256-W/IoqzQ15/++iU3lnvUqJNwFxggNQmrCupRi9gNM4M4=",
       "url": "_framework/AdminDashTemplate.Client.pdb"
     },
     {
-      "hash": "sha256-TKIgIlGXnuNK0hmgjvJaouIVrhfgu60ukO9PyxVnhxk=",
+      "hash": "sha256-akMr3C5g3TUxauzZT9szOPV09cKogJWP+KctE492EKc=",
       "url": "_framework/AdminDashTemplate.Client.wasm"
     },
     {
-      "hash": "sha256-Zi/IBzgtNoFEEsoiRbDA87ndeBqyRBz/7xO0c2m8NiI=",
+      "hash": "sha256-y2dWKwW17eKn49DXZOnahgdvRIMLnzhHN5xPwU+Y+0E=",
       "url": "_framework/AdminDashTemplate.Shared.pdb"
     },
     {
-      "hash": "sha256-eL3nxDWPAgX3z/yjNbUwH8Y+1tiX8YSJbAvIp0KJCho=",
+      "hash": "sha256-dzPXRhP3/ykhvEN/doVm4ZOAAaZcU+K114AQePeM+so=",
       "url": "_framework/AdminDashTemplate.Shared.wasm"
     },
     {
@@ -882,7 +882,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-2WIMrcgJ0lnXAwtuANE/3bwm0Nb5uV8y9hLqwOsKjEU=",
+      "hash": "sha256-S827hXJdptjlHGV+mcRNp0jXve+5uMPGZeW0+SxUfCU=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -1218,7 +1218,7 @@ self.assetsManifest = {
       "url": "images/logo-dark-full.png"
     },
     {
-      "hash": "sha256-9lgID1eoue7DeJcEzZ7gr/NMPr8mcJAKtIhb27e8WKA=",
+      "hash": "sha256-dSWJZWLft1ITgDy9hoAgYj+2l1hLZ3MBv3pzq9sxS9s=",
       "url": "images/logo-dark.png"
     },
     {
@@ -1226,7 +1226,7 @@ self.assetsManifest = {
       "url": "images/logo-light-full.png"
     },
     {
-      "hash": "sha256-QzzWnOpEFmug7B8lypC5YuRyjQ0EKV8ei7hl2DiHVlY=",
+      "hash": "sha256-5HRgNHlXjITezlqboRVoPKqdVRmNJhO1HCCfepQBCp0=",
       "url": "images/logo-light.png"
     },
     {
@@ -1590,11 +1590,11 @@ self.assetsManifest = {
       "url": "js/pages/dashboard.analytics.js"
     },
     {
-      "hash": "sha256-pupeV2t73imZwc7u7yw1V1rbuHlA6/EL/6K8jGv0T4c=",
+      "hash": "sha256-wzFqgPNR1VaKiD1bHIxXHuxufda//4NMTztpOWzMzxg=",
       "url": "js/pages/dashboard.finance.js"
     },
     {
-      "hash": "sha256-maY4ZAIpW5fvpKQ2b077QUN0Ji0DAxdEXaEFP1MtdC4=",
+      "hash": "sha256-Qhe0/GQw3ReKWylWVsUmGMrYa1KivdEnidIkGbIjxhc=",
       "url": "js/pages/dashboard.sales.js"
     },
     {

@@ -1254,8 +1254,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>m5si8g00bu</Fingerprint>
-      <Integrity>9lgID1eoue7DeJcEzZ7gr/NMPr8mcJAKtIhb27e8WKA=</Integrity>
+      <Fingerprint>pz7kkv9rsn</Fingerprint>
+      <Integrity>dSWJZWLft1ITgDy9hoAgYj+2l1hLZ3MBv3pzq9sxS9s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo-dark.png'))</OriginalItemSpec>
@@ -1290,8 +1290,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hjs54wieov</Fingerprint>
-      <Integrity>QzzWnOpEFmug7B8lypC5YuRyjQ0EKV8ei7hl2DiHVlY=</Integrity>
+      <Fingerprint>42t0okdtyw</Fingerprint>
+      <Integrity>5HRgNHlXjITezlqboRVoPKqdVRmNJhO1HCCfepQBCp0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo-light.png'))</OriginalItemSpec>
@@ -2946,8 +2946,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yybnpc9aiy</Fingerprint>
-      <Integrity>pupeV2t73imZwc7u7yw1V1rbuHlA6/EL/6K8jGv0T4c=</Integrity>
+      <Fingerprint>p9ek16t0hm</Fingerprint>
+      <Integrity>wzFqgPNR1VaKiD1bHIxXHuxufda//4NMTztpOWzMzxg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pages\dashboard.finance.js'))</OriginalItemSpec>
@@ -2964,8 +2964,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7okj2qgy4m</Fingerprint>
-      <Integrity>maY4ZAIpW5fvpKQ2b077QUN0Ji0DAxdEXaEFP1MtdC4=</Integrity>
+      <Fingerprint>6qdd28kvnn</Fingerprint>
+      <Integrity>Qhe0/GQw3ReKWylWVsUmGMrYa1KivdEnidIkGbIjxhc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pages\dashboard.sales.js'))</OriginalItemSpec>
