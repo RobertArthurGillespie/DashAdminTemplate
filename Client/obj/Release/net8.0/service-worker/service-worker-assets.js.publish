@@ -1,8 +1,8 @@
 self.assetsManifest = {
-  "version": "0i+V7UYb",
+  "version": "j/RoezHl",
   "assets": [
     {
-      "hash": "sha256-BjuX0wLiK9Gm2WO0ZxwqM4hrHv/uSM5SCAj5awT5Cac=",
+      "hash": "sha256-sjCnnj5RWPYa7PJOB/hcDxlq2uDZTIJAeKSOXXJ/8oo=",
       "url": "_framework/AdminDashTemplate.Client.wasm"
     },
     {
@@ -450,7 +450,7 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-1KJrZRlA1tkW9jmtq4A0ZoQBl7/bBD6AyEv1CgPvmpU=",
+      "hash": "sha256-oCwBV4ZtO5XII2SyNoUdWo6LOB37sJINP1DM45yQLQk=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -926,7 +926,7 @@ self.assetsManifest = {
       "url": "images/users/dummy-avatar.jpg"
     },
     {
-      "hash": "sha256-YeaE4j1SPuBUgBV1hywH1Z/ucJwrCnD1UJd6mDbVjas=",
+      "hash": "sha256-7stT6fU6k4AutpliovVAPVR9/ZHLITw7/E9//LbA1Hw=",
       "url": "index.html"
     },
     {

@@ -1,12 +1,12 @@
 self.assetsManifest = {
-  "version": "v4VtXAeH",
+  "version": "C7Rvff2h",
   "assets": [
     {
-      "hash": "sha256-W/IoqzQ15/++iU3lnvUqJNwFxggNQmrCupRi9gNM4M4=",
+      "hash": "sha256-Kfkg1uHCocP17XgASJKa2AWkr34jLbKBK3m1IuFt9kc=",
       "url": "_framework/AdminDashTemplate.Client.pdb"
     },
     {
-      "hash": "sha256-akMr3C5g3TUxauzZT9szOPV09cKogJWP+KctE492EKc=",
+      "hash": "sha256-7Bckhj8iDOAFNLXkColBHa7mPSHbSR2Jkw2S924ZmGQ=",
       "url": "_framework/AdminDashTemplate.Client.wasm"
     },
     {
@@ -882,7 +882,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-S827hXJdptjlHGV+mcRNp0jXve+5uMPGZeW0+SxUfCU=",
+      "hash": "sha256-NUziMogV7G1Az/ACtHATC+W3cZXKZVu69e6MzH7xA+w=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -1374,7 +1374,7 @@ self.assetsManifest = {
       "url": "images/users/dummy-avatar.jpg"
     },
     {
-      "hash": "sha256-YeaE4j1SPuBUgBV1hywH1Z/ucJwrCnD1UJd6mDbVjas=",
+      "hash": "sha256-7stT6fU6k4AutpliovVAPVR9/ZHLITw7/E9//LbA1Hw=",
       "url": "index.html"
     },
     {

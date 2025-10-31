@@ -188,7 +188,7 @@
                 </a>
             </li>
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/apps/social"))">
                     <span class="nav-icon">
                         <iconify-icon icon="iconamoon:squinting-face-duotone">
@@ -197,7 +197,7 @@
                     <span class="nav-text"> Social </span>
                     <span class="badge badge-pill text-end bg-danger">Hot</span>
                 </a>
-            </li>
+            </li>-->
 
             <li class="nav-item">
                 <a class="nav-link" href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/apps/contacts"))">
@@ -216,27 +216,27 @@
                         <iconify-icon icon="iconamoon:invoice-duotone">
                         </iconify-icon>
                     </span>
-                    <span class="nav-text"> Invoices </span>
+                    <span class="nav-text"> Team Performance </span>
                 </a>
                 <div class="collapse" id="sidebarInvoice">
                     <ul class="nav sub-navbar-nav">
                         <li class="sub-nav-item">
                             <a class="sub-nav-link" href="javascript:void(0)"
-                               @onclick="@(() => HandleRouteChange("/apps/invoices"))">Invoices</a>
+                               @onclick="@(() => HandleRouteChange("/apps/invoices"))">Team Performance Results</a>
                         </li>
                         <li class="sub-nav-item">
                             <a class="sub-nav-link" href="javascript:void(0)"
                                @onclick="@(() => HandleRouteChange("/apps/invoice/details"))">
-                                Invoice Details
+                                Team Performance Details
                             </a>
                         </li>
                     </ul>
                 </div>
             </li>
 
-            <li class="menu-title">Custom</li>
+            <li class="menu-title">Account</li>
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link menu-arrow" href="#sidebarPages" data-bs-toggle="collapse" role="button"
                    aria-expanded="false" aria-controls="sidebarPages">
                     <span class="nav-icon">
@@ -303,7 +303,7 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+            </li>-->
             <!-- end Pages Menu -->
 
             <li class="nav-item">
@@ -313,7 +313,7 @@
                         <iconify-icon icon="iconamoon:lock-duotone">
                         </iconify-icon>
                     </span>
-                    <span class="nav-text"> Authentication </span>
+                    <span class="nav-text"> Account </span>
                 </a>
                 <div class="collapse" id="sidebarAuthentication">
                     <ul class="nav sub-navbar-nav">
@@ -321,23 +321,23 @@
                             <a class="sub-nav-link" href="javascript:void(0)"
                                @onclick="@(() => HandleRouteChange("/auth/signin"))">Sign In</a>
                         </li>
-                        <li class="sub-nav-item">
+                        <!--<li class="sub-nav-item">
                             <a class="sub-nav-link" href="javascript:void(0)"
-                               @onclick="@(() => HandleRouteChange("/auth/signin-2"))">Sign In 2</a>
-                        </li>
+                        @onclick="@(() => HandleRouteChange("/auth/signin-2"))">Sign In 2</a>
+                        </li>-->
                         <li class="sub-nav-item">
                             <a class="sub-nav-link" href="javascript:void(0)"
                                @onclick="@(() => HandleRouteChange("/auth/signup"))">Sign Up</a>
                         </li>
-                        <li class="sub-nav-item">
+                        <!--<li class="sub-nav-item">
                             <a class="sub-nav-link" href="javascript:void(0)"
                                @onclick="@(() => HandleRouteChange("/auth/signup-2"))">Sign Up 2</a>
-                        </li>
+            </li>-->
                         <li class="sub-nav-item">
                             <a class="sub-nav-link" href="javascript:void(0)"
                                @onclick="@(() => HandleRouteChange("/auth/reset-password"))">Reset Password</a>
                         </li>
-                        <li class="sub-nav-item">
+                        <!--<li class="sub-nav-item">
                             <a class="sub-nav-link" href="javascript:void(0)"
                                @onclick="@(() => HandleRouteChange("/auth/reset-password-2"))">Reset Password 2</a>
                         </li>
@@ -350,12 +350,12 @@
                                @onclick="@(() => HandleRouteChange("/auth/lock-screen-2"))">
                                 Lock Screen 2
                             </a>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
             </li>
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="javascript:void(0)" @onclick="@(() => HandleRouteChange("/widgets"))">
                     <span class="nav-icon">
                         <iconify-icon icon="iconamoon:gift-duotone">
@@ -364,10 +364,13 @@
                     <span class="nav-text">Widgets</span>
                     <span class="badge bg-info badge-pill text-end">9+</span>
                 </a>
-            </li>
+            </li>-->
+
+            
+
             <!-- end Demo Menu Item -->
 
-            <li class="menu-title">Components</li>
+            <!--<li class="menu-title">Components</li>
 
             <li class="nav-item">
                 <a class="nav-link menu-arrow" href="#sidebarBaseUI" data-bs-toggle="collapse" role="button"
@@ -466,10 +469,10 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+            </li>-->
             <!-- end Base UI Menu -->
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link menu-arrow" href="#sidebarExtendedUI" data-bs-toggle="collapse" role="button"
                    aria-expanded="false" aria-controls="sidebarExtendedUI">
                     <span class="nav-icon">
@@ -506,10 +509,10 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+            </li>-->
             <!-- end Extended UI Menu -->
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link menu-arrow" href="#sidebarCharts" data-bs-toggle="collapse" role="button"
                    aria-expanded="false" aria-controls="sidebarCharts">
                     <span class="nav-icon">
@@ -612,10 +615,10 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+            </li>-->
             <!-- end Chart library Menu -->
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link menu-arrow" href="#sidebarForms" data-bs-toggle="collapse" role="button"
                    aria-expanded="false" aria-controls="sidebarForms">
                     <span class="nav-icon">
@@ -680,10 +683,10 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+            </li>-->
             <!-- end Form Menu -->
 
-            <li class="nav-item">
+           <!-- <li class="nav-item">
                 <a class="nav-link menu-arrow" href="#sidebarTables" data-bs-toggle="collapse" role="button"
                    aria-expanded="false" aria-controls="sidebarTables">
                     <span class="nav-icon">
@@ -704,10 +707,10 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+             </li>-->
             <!-- end Table Menu -->
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link menu-arrow" href="#sidebarIcons" data-bs-toggle="collapse" role="button"
                    aria-expanded="false" aria-controls="sidebarIcons">
                     <span class="nav-icon">
@@ -728,10 +731,10 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+            </li>-->
             <!-- end Icons library Menu -->
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link menu-arrow" href="#sidebarMaps" data-bs-toggle="collapse" role="button"
                    aria-expanded="false" aria-controls="sidebarMaps">
                     <span class="nav-icon">
@@ -752,10 +755,10 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+            </li>-->
             <!-- end Map Menu -->
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="javascript:void(0);">
                     <span class="nav-icon">
                         <iconify-icon icon="iconamoon:badge-duotone">
@@ -764,10 +767,10 @@
                     <span class="nav-text">Badge Menu</span>
                     <span class="badge bg-danger badge-pill text-end">1</span>
                 </a>
-            </li>
+            </li>-->
             <!-- end Demo Menu Item -->
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link menu-arrow" href="#sidebarMultiLevelDemo" data-bs-toggle="collapse" role="button"
                    aria-expanded="false" aria-controls="sidebarMultiLevelDemo">
                     <span class="nav-icon">
@@ -798,10 +801,10 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+            </li>-->
             <!-- end Demo Menu Item -->
 
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link disabled" href="javascript:void(0);">
                     <span class="nav-icon">
                         <iconify-icon icon="iconamoon:unavailable-duotone">
@@ -809,7 +812,7 @@
                     </span>
                     <span class="nav-text"> Disabled Item </span>
                 </a>
-            </li>
+            </li>-->
             <!-- end Demo Menu Item -->
         </ul>
     </div>
