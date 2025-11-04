@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "10xvBakIizk=",
+  "dgSpecHash": "4xCQ8isN89k=",
   "success": true,
   "projectFilePath": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Server\\AdminDashTemplate.Server.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,6 @@
     "C:\\Users\\Rober\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.0\\microsoft.aspnetcore.components.forms.8.0.0.nupkg.sha512",
     "C:\\Users\\Rober\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.0\\microsoft.aspnetcore.components.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Rober\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.0\\microsoft.aspnetcore.components.webassembly.8.0.0.nupkg.sha512",
-    "C:\\Users\\Rober\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\8.0.0\\microsoft.aspnetcore.components.webassembly.devserver.8.0.0.nupkg.sha512",
     "C:\\Users\\Rober\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\8.0.0\\microsoft.aspnetcore.components.webassembly.server.8.0.0.nupkg.sha512",
     "C:\\Users\\Rober\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.0\\microsoft.aspnetcore.metadata.8.0.0.nupkg.sha512",
     "C:\\Users\\Rober\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

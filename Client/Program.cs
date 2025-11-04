@@ -2,6 +2,9 @@ using AdminDashTemplate.Client;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
+Console.WriteLine("========================================");
+Console.WriteLine("CLIENT PROJECT IS RUNNING!");
+Console.WriteLine("========================================");
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");

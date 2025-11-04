@@ -1,12 +1,12 @@
 self.assetsManifest = {
-  "version": "NADFRAxp",
+  "version": "+Gf54c++",
   "assets": [
     {
-      "hash": "sha256-SM/XxZTIlBXBmqmGZP4Gp8vrNoMx+I78U4d1QbdDqIE=",
+      "hash": "sha256-jykJi7vCIFceXPhgOInTzXCQ6xcF3muvLoVUy01WTJg=",
       "url": "_framework/AdminDashTemplate.Client.wasm"
     },
     {
-      "hash": "sha256-A8xSsJurgBu5GT1FKwChiEpgRQw5boih8b5ZlSg91M0=",
+      "hash": "sha256-m5eD5UUBFUU5QCWX/RS+a6SKoqV5Tbrd8q9lja9s8h4=",
       "url": "_framework/AdminDashTemplate.Shared.wasm"
     },
     {
@@ -450,7 +450,7 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-1ngBSvAazwMUQUtaL8mhWWPIB3idyA/y/f+qE/N99qk=",
+      "hash": "sha256-fb9I/oc9ctZyOIIMh0hLM12SnBhRU2p156m3YX0c7As=",
       "url": "_framework/blazor.boot.json"
     },
     {
