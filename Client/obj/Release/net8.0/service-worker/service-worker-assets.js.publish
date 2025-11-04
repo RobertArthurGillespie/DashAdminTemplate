@@ -1,8 +1,8 @@
 self.assetsManifest = {
-  "version": "j/RoezHl",
+  "version": "NADFRAxp",
   "assets": [
     {
-      "hash": "sha256-sjCnnj5RWPYa7PJOB/hcDxlq2uDZTIJAeKSOXXJ/8oo=",
+      "hash": "sha256-SM/XxZTIlBXBmqmGZP4Gp8vrNoMx+I78U4d1QbdDqIE=",
       "url": "_framework/AdminDashTemplate.Client.wasm"
     },
     {
@@ -450,7 +450,7 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-oCwBV4ZtO5XII2SyNoUdWo6LOB37sJINP1DM45yQLQk=",
+      "hash": "sha256-1ngBSvAazwMUQUtaL8mhWWPIB3idyA/y/f+qE/N99qk=",
       "url": "_framework/blazor.boot.json"
     },
     {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+pnrxM8iSLhRlWkZjPgFHn46rs0HnU+Knk9doUUs94M=",
+  "Hash": "WqYVOnubHpuza5SJqgGiVbndEFJlVr17Wuro7F/uSlc=",
   "Source": "AdminDashTemplate.Server",
   "BasePath": "_content/AdminDashTemplate.Server",
   "Mode": "Default",
@@ -211,8 +211,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "ou5jr9br7o",
-      "Integrity": "oCwBV4ZtO5XII2SyNoUdWo6LOB37sJINP1DM45yQLQk=",
+      "Fingerprint": "qrv4r1y93v",
+      "Integrity": "1ngBSvAazwMUQUtaL8mhWWPIB3idyA/y/f+qE/N99qk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\blazor.publish.boot.json"
@@ -2318,7 +2318,7 @@
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fai48imgwe-eujm3yl976.gz"
     },
     {
-      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-ou5jr9br7o.br",
+      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-qrv4r1y93v.br",
       "SourceId": "AdminDashTemplate.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\",
@@ -2332,14 +2332,14 @@
       "RelatedAsset": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\blazor.publish.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "rl3jvazyin",
-      "Integrity": "/y9Uif+uxEEO1W0wI6XM8tshemN2ECepMtlgprQpVhM=",
+      "Fingerprint": "0nyy86umar",
+      "Integrity": "JNy2sRFHMdCF24GzFqFbwn8pKNY33oWaGp2MCMStPZU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-ou5jr9br7o.br"
+      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-qrv4r1y93v.br"
     },
     {
-      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-ou5jr9br7o.gz",
+      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-qrv4r1y93v.gz",
       "SourceId": "AdminDashTemplate.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\",
@@ -2353,11 +2353,11 @@
       "RelatedAsset": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\blazor.publish.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xayhjiba3o",
-      "Integrity": "6XK6UOFhRUQsBQhWqjtp4fT9hjRyiy3H+/pcM2V7f3I=",
+      "Fingerprint": "cv53x60j5b",
+      "Integrity": "eJmfbEsemvpquzCpaQGIq5Vo3Zfnp6YzVfYRLeVESvM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-ou5jr9br7o.gz"
+      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-qrv4r1y93v.gz"
     },
     {
       "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fn0605uaht-zhji0zavdw.br",
@@ -3536,7 +3536,7 @@
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p12trnlzn8-8ja2ncjh97.gz"
     },
     {
-      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-mzntexmrg8.br",
+      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-gy6mw902s7.br",
       "SourceId": "AdminDashTemplate.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\",
@@ -3550,14 +3550,14 @@
       "RelatedAsset": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\webcil\\publish\\AdminDashTemplate.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "yl9e94m6d1",
-      "Integrity": "JkENaC8UxUo3BbsZfSEJ/Q5FHtdkWcUtcWDJhZd397w=",
+      "Fingerprint": "ux8uegfbzc",
+      "Integrity": "PrlX/DXZ0QrGe3ZmqdctZD5dAg19BPT3XAdB6ifWUOQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-mzntexmrg8.br"
+      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-gy6mw902s7.br"
     },
     {
-      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-mzntexmrg8.gz",
+      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-gy6mw902s7.gz",
       "SourceId": "AdminDashTemplate.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\",
@@ -3571,11 +3571,11 @@
       "RelatedAsset": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\webcil\\publish\\AdminDashTemplate.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "q9sxp3sqb6",
-      "Integrity": "og38IIoB13PHVjA6oV8OBKYRcjc9n4R0wELvfer0mIs=",
+      "Fingerprint": "6oos98ttef",
+      "Integrity": "5kQspj/lvfNeb9rZr38pvevMVktwmOWPvtbZgyNYU7M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-mzntexmrg8.gz"
+      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-gy6mw902s7.gz"
     },
     {
       "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\paj7wiisw9-lfu7j35m59.br",
@@ -5356,8 +5356,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerJs",
-      "Fingerprint": "sn4cd45871",
-      "Integrity": "aFAX6D3hr87TmPkwW9oKnCbMJbIJRj+yh11SAi4/jMU=",
+      "Fingerprint": "ixio9dzr9v",
+      "Integrity": "1mJX7mkUCG0SlIs+N38WGzNeuZAgCwg5FrEVrOGsEms=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\service-worker\\service-worker.published.js.publish"
@@ -5377,8 +5377,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerManifest",
-      "Fingerprint": "spe52j2nr6",
-      "Integrity": "wCfqWRAQVuxTctmr8zxsC2OfEuJIpbRqQoFRbvk/VZQ=",
+      "Fingerprint": "11jijgj5cg",
+      "Integrity": "1dOvh2Ya5nA8RDwkyRAfmixwzVYrhnhS4qfXpCBD1V0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\service-worker\\service-worker-assets.js.publish"
@@ -5398,8 +5398,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "mzntexmrg8",
-      "Integrity": "sjCnnj5RWPYa7PJOB/hcDxlq2uDZTIJAeKSOXXJ/8oo=",
+      "Fingerprint": "gy6mw902s7",
+      "Integrity": "SM/XxZTIlBXBmqmGZP4Gp8vrNoMx+I78U4d1QbdDqIE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\webcil\\publish\\AdminDashTemplate.Client.wasm"
@@ -12632,12 +12632,12 @@
   "Endpoints": [
     {
       "Route": "_framework/AdminDashTemplate.Client.wasm",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-mzntexmrg8.br",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-gy6mw902s7.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000005953692"
+          "Quality": "0.000005950220"
         }
       ],
       "ResponseHeaders": [
@@ -12655,15 +12655,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "167962"
+          "Value": "168060"
         },
         {
           "Name": "ETag",
-          "Value": "\"JkENaC8UxUo3BbsZfSEJ/Q5FHtdkWcUtcWDJhZd397w=\""
+          "Value": "\"PrlX/DXZ0QrGe3ZmqdctZD5dAg19BPT3XAdB6ifWUOQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 15:58:48 GMT"
+          "Value": "Tue, 04 Nov 2025 16:42:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12675,24 +12675,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sjCnnj5RWPYa7PJOB/hcDxlq2uDZTIJAeKSOXXJ/8oo=\""
+          "Value": "W/\"SM/XxZTIlBXBmqmGZP4Gp8vrNoMx+I78U4d1QbdDqIE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sjCnnj5RWPYa7PJOB/hcDxlq2uDZTIJAeKSOXXJ/8oo="
+          "Value": "sha256-SM/XxZTIlBXBmqmGZP4Gp8vrNoMx+I78U4d1QbdDqIE="
         }
       ]
     },
     {
       "Route": "_framework/AdminDashTemplate.Client.wasm",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-mzntexmrg8.gz",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-gy6mw902s7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000003566652"
+          "Quality": "0.000003566715"
         }
       ],
       "ResponseHeaders": [
@@ -12710,15 +12710,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "280374"
+          "Value": "280369"
         },
         {
           "Name": "ETag",
-          "Value": "\"og38IIoB13PHVjA6oV8OBKYRcjc9n4R0wELvfer0mIs=\""
+          "Value": "\"5kQspj/lvfNeb9rZr38pvevMVktwmOWPvtbZgyNYU7M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 15:58:48 GMT"
+          "Value": "Tue, 04 Nov 2025 16:42:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12730,13 +12730,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sjCnnj5RWPYa7PJOB/hcDxlq2uDZTIJAeKSOXXJ/8oo=\""
+          "Value": "W/\"SM/XxZTIlBXBmqmGZP4Gp8vrNoMx+I78U4d1QbdDqIE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sjCnnj5RWPYa7PJOB/hcDxlq2uDZTIJAeKSOXXJ/8oo="
+          "Value": "sha256-SM/XxZTIlBXBmqmGZP4Gp8vrNoMx+I78U4d1QbdDqIE="
         }
       ]
     },
@@ -12763,23 +12763,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sjCnnj5RWPYa7PJOB/hcDxlq2uDZTIJAeKSOXXJ/8oo=\""
+          "Value": "\"SM/XxZTIlBXBmqmGZP4Gp8vrNoMx+I78U4d1QbdDqIE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 15:58:48 GMT"
+          "Value": "Tue, 04 Nov 2025 16:42:08 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sjCnnj5RWPYa7PJOB/hcDxlq2uDZTIJAeKSOXXJ/8oo="
+          "Value": "sha256-SM/XxZTIlBXBmqmGZP4Gp8vrNoMx+I78U4d1QbdDqIE="
         }
       ]
     },
     {
       "Route": "_framework/AdminDashTemplate.Client.wasm.br",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-mzntexmrg8.br",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-gy6mw902s7.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12796,7 +12796,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "167962"
+          "Value": "168060"
         },
         {
           "Name": "Content-Type",
@@ -12804,11 +12804,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JkENaC8UxUo3BbsZfSEJ/Q5FHtdkWcUtcWDJhZd397w=\""
+          "Value": "\"PrlX/DXZ0QrGe3ZmqdctZD5dAg19BPT3XAdB6ifWUOQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 15:58:48 GMT"
+          "Value": "Tue, 04 Nov 2025 16:42:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12818,13 +12818,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JkENaC8UxUo3BbsZfSEJ/Q5FHtdkWcUtcWDJhZd397w="
+          "Value": "sha256-PrlX/DXZ0QrGe3ZmqdctZD5dAg19BPT3XAdB6ifWUOQ="
         }
       ]
     },
     {
       "Route": "_framework/AdminDashTemplate.Client.wasm.gz",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-mzntexmrg8.gz",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\p340d6a4hs-gy6mw902s7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12841,7 +12841,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "280374"
+          "Value": "280369"
         },
         {
           "Name": "Content-Type",
@@ -12849,11 +12849,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"og38IIoB13PHVjA6oV8OBKYRcjc9n4R0wELvfer0mIs=\""
+          "Value": "\"5kQspj/lvfNeb9rZr38pvevMVktwmOWPvtbZgyNYU7M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 15:58:48 GMT"
+          "Value": "Tue, 04 Nov 2025 16:42:08 GMT"
         },
         {
           "Name": "Vary",
@@ -12863,7 +12863,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-og38IIoB13PHVjA6oV8OBKYRcjc9n4R0wELvfer0mIs="
+          "Value": "sha256-5kQspj/lvfNeb9rZr38pvevMVktwmOWPvtbZgyNYU7M="
         }
       ]
     },
@@ -13127,28 +13127,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oCwBV4ZtO5XII2SyNoUdWo6LOB37sJINP1DM45yQLQk=\""
+          "Value": "\"1ngBSvAazwMUQUtaL8mhWWPIB3idyA/y/f+qE/N99qk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 18:47:10 GMT"
+          "Value": "Tue, 04 Nov 2025 20:03:37 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oCwBV4ZtO5XII2SyNoUdWo6LOB37sJINP1DM45yQLQk="
+          "Value": "sha256-1ngBSvAazwMUQUtaL8mhWWPIB3idyA/y/f+qE/N99qk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-ou5jr9br7o.br",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-qrv4r1y93v.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000197355437"
+          "Quality": "0.000197316496"
         }
       ],
       "ResponseHeaders": [
@@ -13166,15 +13166,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5066"
+          "Value": "5067"
         },
         {
           "Name": "ETag",
-          "Value": "\"/y9Uif+uxEEO1W0wI6XM8tshemN2ECepMtlgprQpVhM=\""
+          "Value": "\"JNy2sRFHMdCF24GzFqFbwn8pKNY33oWaGp2MCMStPZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 18:47:10 GMT"
+          "Value": "Tue, 04 Nov 2025 20:03:37 GMT"
         },
         {
           "Name": "Vary",
@@ -13186,24 +13186,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"oCwBV4ZtO5XII2SyNoUdWo6LOB37sJINP1DM45yQLQk=\""
+          "Value": "W/\"1ngBSvAazwMUQUtaL8mhWWPIB3idyA/y/f+qE/N99qk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oCwBV4ZtO5XII2SyNoUdWo6LOB37sJINP1DM45yQLQk="
+          "Value": "sha256-1ngBSvAazwMUQUtaL8mhWWPIB3idyA/y/f+qE/N99qk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-ou5jr9br7o.gz",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-qrv4r1y93v.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000181884322"
+          "Quality": "0.000181818182"
         }
       ],
       "ResponseHeaders": [
@@ -13221,15 +13221,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5497"
+          "Value": "5499"
         },
         {
           "Name": "ETag",
-          "Value": "\"6XK6UOFhRUQsBQhWqjtp4fT9hjRyiy3H+/pcM2V7f3I=\""
+          "Value": "\"eJmfbEsemvpquzCpaQGIq5Vo3Zfnp6YzVfYRLeVESvM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 18:47:10 GMT"
+          "Value": "Tue, 04 Nov 2025 20:03:37 GMT"
         },
         {
           "Name": "Vary",
@@ -13241,19 +13241,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"oCwBV4ZtO5XII2SyNoUdWo6LOB37sJINP1DM45yQLQk=\""
+          "Value": "W/\"1ngBSvAazwMUQUtaL8mhWWPIB3idyA/y/f+qE/N99qk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oCwBV4ZtO5XII2SyNoUdWo6LOB37sJINP1DM45yQLQk="
+          "Value": "sha256-1ngBSvAazwMUQUtaL8mhWWPIB3idyA/y/f+qE/N99qk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.br",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-ou5jr9br7o.br",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-qrv4r1y93v.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13270,7 +13270,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5066"
+          "Value": "5067"
         },
         {
           "Name": "Content-Type",
@@ -13278,11 +13278,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/y9Uif+uxEEO1W0wI6XM8tshemN2ECepMtlgprQpVhM=\""
+          "Value": "\"JNy2sRFHMdCF24GzFqFbwn8pKNY33oWaGp2MCMStPZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 18:47:10 GMT"
+          "Value": "Tue, 04 Nov 2025 20:03:37 GMT"
         },
         {
           "Name": "Vary",
@@ -13292,13 +13292,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/y9Uif+uxEEO1W0wI6XM8tshemN2ECepMtlgprQpVhM="
+          "Value": "sha256-JNy2sRFHMdCF24GzFqFbwn8pKNY33oWaGp2MCMStPZU="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-ou5jr9br7o.gz",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\publish\\fkyp1q8ztx-qrv4r1y93v.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13315,7 +13315,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5497"
+          "Value": "5499"
         },
         {
           "Name": "Content-Type",
@@ -13323,11 +13323,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6XK6UOFhRUQsBQhWqjtp4fT9hjRyiy3H+/pcM2V7f3I=\""
+          "Value": "\"eJmfbEsemvpquzCpaQGIq5Vo3Zfnp6YzVfYRLeVESvM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 18:47:10 GMT"
+          "Value": "Tue, 04 Nov 2025 20:03:37 GMT"
         },
         {
           "Name": "Vary",
@@ -13337,7 +13337,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6XK6UOFhRUQsBQhWqjtp4fT9hjRyiy3H+/pcM2V7f3I="
+          "Value": "sha256-eJmfbEsemvpquzCpaQGIq5Vo3Zfnp6YzVfYRLeVESvM="
         }
       ]
     },
@@ -50509,7 +50509,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 18:46:09 GMT"
+          "Value": "Tue, 04 Nov 2025 17:34:56 GMT"
         }
       ],
       "EndpointProperties": [
@@ -50554,7 +50554,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 18:46:09 GMT"
+          "Value": "Tue, 04 Nov 2025 17:34:56 GMT"
         }
       ],
       "EndpointProperties": [
@@ -60591,7 +60591,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aFAX6D3hr87TmPkwW9oKnCbMJbIJRj+yh11SAi4/jMU=\""
+          "Value": "\"1mJX7mkUCG0SlIs+N38WGzNeuZAgCwg5FrEVrOGsEms=\""
         },
         {
           "Name": "Last-Modified",
@@ -60601,7 +60601,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aFAX6D3hr87TmPkwW9oKnCbMJbIJRj+yh11SAi4/jMU="
+          "Value": "sha256-1mJX7mkUCG0SlIs+N38WGzNeuZAgCwg5FrEVrOGsEms="
         }
       ]
     },
@@ -60628,17 +60628,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wCfqWRAQVuxTctmr8zxsC2OfEuJIpbRqQoFRbvk/VZQ=\""
+          "Value": "\"1dOvh2Ya5nA8RDwkyRAfmixwzVYrhnhS4qfXpCBD1V0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Oct 2025 18:47:10 GMT"
+          "Value": "Tue, 04 Nov 2025 16:42:08 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wCfqWRAQVuxTctmr8zxsC2OfEuJIpbRqQoFRbvk/VZQ="
+          "Value": "sha256-1dOvh2Ya5nA8RDwkyRAfmixwzVYrhnhS4qfXpCBD1V0="
         }
       ]
     }
