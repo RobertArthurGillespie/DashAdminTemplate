@@ -106,8 +106,8 @@ window.loadAnalytics = async function (dotNetRef) {
                     dashArray: 4
                 },
                 colors: colors,
-                series: [85.2],
-                labels: ['Defensive Maneuver Rate'],
+                series: [85.8],
+                labels: ['Total CE Hours'],
                 responsive: [{
                     breakpoint: 380,
                     options: {

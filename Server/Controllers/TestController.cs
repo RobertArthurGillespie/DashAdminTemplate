@@ -12,5 +12,11 @@ namespace AdminDashTemplate.Server.Controllers
         {
             return Content("Test successful");
         }
+
+        [HttpGet("testagain")]
+        public IActionResult testagain()
+        {
+            return Content("Test 2 successful!");
+        }
     }
 }

@@ -2928,8 +2928,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ykhsxt1ux6</Fingerprint>
-      <Integrity>Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA=</Integrity>
+      <Fingerprint>2jdpgx119z</Fingerprint>
+      <Integrity>vpRNNWUUJERfdbR2+4Ne1pJI5ZtCjArADCwGNpdx7v0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pages\dashboard.analytics.js'))</OriginalItemSpec>

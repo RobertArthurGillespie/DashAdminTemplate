@@ -39,5 +39,23 @@ namespace AdminDashTemplate.Server.Controllers
                 return StatusCode(500, "Error calculating total reputation.");
             }
         }
+
+        // --- NEW ENDPOINT FOR CONTINUING EDUCATION HOURS ---
+        [HttpGet("TotalContinuingEducation")]
+        public async Task<ActionResult<int>> GetTotalContinuingEducation()
+        {
+            try
+            {
+                // Access the UserProfiles table and sum the ContinuingEducationHours column
+                var totalHours = await _context.UserProfiles.SumAsync(p => p.ContinuingEducationHours);
+                // Note: We return the total hours directly as the integer sum
+                return totalHours;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Database Error: {ex.Message}");
+                return StatusCode(500, "Error calculating total continuing education hours.");
+            }
+        }
     }
 }

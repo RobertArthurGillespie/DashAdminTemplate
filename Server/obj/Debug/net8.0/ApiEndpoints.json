@@ -38,5 +38,15 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdminDashTemplate.Server.Controllers.TestController",
+    "Method": "testagain",
+    "RelativePath": "api/Test/testagain",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

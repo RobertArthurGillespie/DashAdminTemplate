@@ -1944,17 +1944,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ooruecywuy"},{"Name":"integrity","Value":"sha256-WHqVKo18AkD3SpSjzX6/jjoFrwcwDH9kWIhWARsSA9Q="},{"Name":"label","Value":"js/pages/coming-soon.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1854"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022WHqVKo18AkD3SpSjzX6/jjoFrwcwDH9kWIhWARsSA9Q=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 10:44:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="js/pages/dashboard.analytics.2jdpgx119z.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pages\dashboard.analytics.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2jdpgx119z"},{"Name":"integrity","Value":"sha256-vpRNNWUUJERfdbR2\u002B4Ne1pJI5ZtCjArADCwGNpdx7v0="},{"Name":"label","Value":"js/pages/dashboard.analytics.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9896"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vpRNNWUUJERfdbR2\u002B4Ne1pJI5ZtCjArADCwGNpdx7v0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 19:24:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="js/pages/dashboard.analytics.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pages\dashboard.analytics.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9905"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Oct 2025 15:08:21 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="js/pages/dashboard.analytics.ykhsxt1ux6.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pages\dashboard.analytics.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ykhsxt1ux6"},{"Name":"integrity","Value":"sha256-Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA="},{"Name":"label","Value":"js/pages/dashboard.analytics.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9905"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Oct 2025 15:08:21 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vpRNNWUUJERfdbR2\u002B4Ne1pJI5ZtCjArADCwGNpdx7v0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9896"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vpRNNWUUJERfdbR2\u002B4Ne1pJI5ZtCjArADCwGNpdx7v0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 19:24:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="js/pages/dashboard.finance.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pages\dashboard.finance.js'))</AssetFile>

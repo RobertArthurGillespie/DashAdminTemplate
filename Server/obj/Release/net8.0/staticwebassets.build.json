@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ftO8El1Am36OeTqqbPD2BIDmh8J7o3Nyq6mQbj67Rmg=",
+  "Hash": "vzjwBybW2KmuUn7jpdj84QVxy8+35U90NFQtz7DfwEk=",
   "Source": "AdminDashTemplate.Server",
   "BasePath": "_content/AdminDashTemplate.Server",
   "Mode": "Default",
@@ -43,8 +43,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "mlczgpfzj7",
-      "Integrity": "dhGfFiLdCxzpr7U3ZK97T44oc7h0RpywwAwLENLvjqQ=",
+      "Fingerprint": "ry39v644lv",
+      "Integrity": "UxPXyc0plu0BPtZnPzhwnLVYJja2BkcdFoVDSSisgTc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\AdminDashTemplate.Client.pdb"
@@ -64,8 +64,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "jbjfqctduu",
-      "Integrity": "jykJi7vCIFceXPhgOInTzXCQ6xcF3muvLoVUy01WTJg=",
+      "Fingerprint": "8acpslzuki",
+      "Integrity": "kDXqznJ16Erxe2gQVEF5/YpUkN+PV2NPFbpWvYtQgSU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\AdminDashTemplate.Client.wasm"
@@ -127,8 +127,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "5tqxge01px",
-      "Integrity": "B7Kde4pNvFvkAtqGwwbscZpYPrGd5LLB6vEHI6EuZtM=",
+      "Fingerprint": "i36zvfpzxo",
+      "Integrity": "nnQPQ56cR3NrV/m4ZZkgjKsR7x8CKoFhj+CnYkUaZ6Q=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -5132,7 +5132,7 @@
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\16izaeorbh-08knwbkos0.gz"
     },
     {
-      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\1cgt0u97w9-mlczgpfzj7.gz",
+      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\1cgt0u97w9-ry39v644lv.gz",
       "SourceId": "AdminDashTemplate.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\",
@@ -5146,11 +5146,11 @@
       "RelatedAsset": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\AdminDashTemplate.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ous5zavp7i",
-      "Integrity": "ULwlALimxr4oNbM+TkcsC7pP/wvomEa2XqGWFL9yVFg=",
+      "Fingerprint": "11vx5ixgbg",
+      "Integrity": "qyeIqPJPJVyqgSexJACqJUOJIYJbt39NVeXefgkflY8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\1cgt0u97w9-mlczgpfzj7.gz"
+      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\1cgt0u97w9-ry39v644lv.gz"
     },
     {
       "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\1cy0pg4i3t-rpvltkbyzt.gz",
@@ -6392,7 +6392,7 @@
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\bds29bbl07-8u7hd4iwzw.gz"
     },
     {
-      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\begouxysay-5tqxge01px.gz",
+      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\begouxysay-i36zvfpzxo.gz",
       "SourceId": "AdminDashTemplate.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\",
@@ -6406,11 +6406,11 @@
       "RelatedAsset": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "y22g29p4qd",
-      "Integrity": "igS+I2ViQHFlJR8mMhI44mzrLHDswoFOL1+qoSsKHyQ=",
+      "Fingerprint": "o0q2kxpgld",
+      "Integrity": "ODg35yhv41Ft762/cMMt7jqFJ5MY153Hs3e+NF1O0Pk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\begouxysay-5tqxge01px.gz"
+      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\begouxysay-i36zvfpzxo.gz"
     },
     {
       "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\bi1sz8j63t-457dsizn51.gz",
@@ -9353,7 +9353,7 @@
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\vzl7fyge89-grnnwy2ofa.gz"
     },
     {
-      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\we9f4pdxl7-jbjfqctduu.gz",
+      "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\we9f4pdxl7-8acpslzuki.gz",
       "SourceId": "AdminDashTemplate.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\",
@@ -9367,11 +9367,11 @@
       "RelatedAsset": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\AdminDashTemplate.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xklhxv5q1j",
-      "Integrity": "fwvRPnwXmhLU9fkH9ixo5tooypouUFJiWA+hxWaP0rs=",
+      "Fingerprint": "6ktx87e8u5",
+      "Integrity": "Gog5qjpFVun2gWI72453VjJxushe1/WJnR50dD+RgsY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\we9f4pdxl7-jbjfqctduu.gz"
+      "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\we9f4pdxl7-8acpslzuki.gz"
     },
     {
       "Identity": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\wgp48a1htm-hziqn8ajd0.gz",
@@ -9871,8 +9871,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerJs",
-      "Fingerprint": "edumjuoomm",
-      "Integrity": "vhHM+AsenXSXNeMgcdlrMuFwCmsCIuTBhSDdFBynInU=",
+      "Fingerprint": "dvqute28nt",
+      "Integrity": "d8dCnkurGsjY/MNaFYvytTEsJr6lq0zsbWl3WytCrWc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\service-worker\\service-worker.js.build"
@@ -9892,8 +9892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerManifest",
-      "Fingerprint": "380dqxpr3w",
-      "Integrity": "ne/AgxpVViDHXxT2ceUjMVAfAtstMawE31CAxYmuryw=",
+      "Fingerprint": "82ktovnj1a",
+      "Integrity": "0C4IbIZaketjvlRGAsgtCCURilojenp9o1pcYt9PNXY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\service-worker\\service-worker-assets.js.build"
@@ -13315,8 +13315,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ykhsxt1ux6",
-      "Integrity": "Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA=",
+      "Fingerprint": "2jdpgx119z",
+      "Integrity": "vpRNNWUUJERfdbR2+4Ne1pJI5ZtCjArADCwGNpdx7v0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\dashboard.analytics.js"
@@ -14795,28 +14795,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dhGfFiLdCxzpr7U3ZK97T44oc7h0RpywwAwLENLvjqQ=\""
+          "Value": "\"UxPXyc0plu0BPtZnPzhwnLVYJja2BkcdFoVDSSisgTc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Wed, 05 Nov 2025 20:40:17 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dhGfFiLdCxzpr7U3ZK97T44oc7h0RpywwAwLENLvjqQ="
+          "Value": "sha256-UxPXyc0plu0BPtZnPzhwnLVYJja2BkcdFoVDSSisgTc="
         }
       ]
     },
     {
       "Route": "_framework/AdminDashTemplate.Client.pdb",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\1cgt0u97w9-mlczgpfzj7.gz",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\1cgt0u97w9-ry39v644lv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000002772956"
+          "Quality": "0.000002772979"
         }
       ],
       "ResponseHeaders": [
@@ -14834,15 +14834,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "360625"
+          "Value": "360622"
         },
         {
           "Name": "ETag",
-          "Value": "\"ULwlALimxr4oNbM+TkcsC7pP/wvomEa2XqGWFL9yVFg=\""
+          "Value": "\"qyeIqPJPJVyqgSexJACqJUOJIYJbt39NVeXefgkflY8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -14854,19 +14854,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dhGfFiLdCxzpr7U3ZK97T44oc7h0RpywwAwLENLvjqQ=\""
+          "Value": "W/\"UxPXyc0plu0BPtZnPzhwnLVYJja2BkcdFoVDSSisgTc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dhGfFiLdCxzpr7U3ZK97T44oc7h0RpywwAwLENLvjqQ="
+          "Value": "sha256-UxPXyc0plu0BPtZnPzhwnLVYJja2BkcdFoVDSSisgTc="
         }
       ]
     },
     {
       "Route": "_framework/AdminDashTemplate.Client.pdb.gz",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\1cgt0u97w9-mlczgpfzj7.gz",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\1cgt0u97w9-ry39v644lv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14883,7 +14883,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "360625"
+          "Value": "360622"
         },
         {
           "Name": "Content-Type",
@@ -14891,11 +14891,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ULwlALimxr4oNbM+TkcsC7pP/wvomEa2XqGWFL9yVFg=\""
+          "Value": "\"qyeIqPJPJVyqgSexJACqJUOJIYJbt39NVeXefgkflY8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -14905,7 +14905,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ULwlALimxr4oNbM+TkcsC7pP/wvomEa2XqGWFL9yVFg="
+          "Value": "sha256-qyeIqPJPJVyqgSexJACqJUOJIYJbt39NVeXefgkflY8="
         }
       ]
     },
@@ -14932,28 +14932,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jykJi7vCIFceXPhgOInTzXCQ6xcF3muvLoVUy01WTJg=\""
+          "Value": "\"kDXqznJ16Erxe2gQVEF5/YpUkN+PV2NPFbpWvYtQgSU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Wed, 05 Nov 2025 20:40:17 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jykJi7vCIFceXPhgOInTzXCQ6xcF3muvLoVUy01WTJg="
+          "Value": "sha256-kDXqznJ16Erxe2gQVEF5/YpUkN+PV2NPFbpWvYtQgSU="
         }
       ]
     },
     {
       "Route": "_framework/AdminDashTemplate.Client.wasm",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\we9f4pdxl7-jbjfqctduu.gz",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\we9f4pdxl7-8acpslzuki.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000003565863"
+          "Quality": "0.000003565952"
         }
       ],
       "ResponseHeaders": [
@@ -14971,15 +14971,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "280436"
+          "Value": "280429"
         },
         {
           "Name": "ETag",
-          "Value": "\"fwvRPnwXmhLU9fkH9ixo5tooypouUFJiWA+hxWaP0rs=\""
+          "Value": "\"Gog5qjpFVun2gWI72453VjJxushe1/WJnR50dD+RgsY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -14991,19 +14991,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jykJi7vCIFceXPhgOInTzXCQ6xcF3muvLoVUy01WTJg=\""
+          "Value": "W/\"kDXqznJ16Erxe2gQVEF5/YpUkN+PV2NPFbpWvYtQgSU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jykJi7vCIFceXPhgOInTzXCQ6xcF3muvLoVUy01WTJg="
+          "Value": "sha256-kDXqznJ16Erxe2gQVEF5/YpUkN+PV2NPFbpWvYtQgSU="
         }
       ]
     },
     {
       "Route": "_framework/AdminDashTemplate.Client.wasm.gz",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\we9f4pdxl7-jbjfqctduu.gz",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\we9f4pdxl7-8acpslzuki.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15020,7 +15020,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "280436"
+          "Value": "280429"
         },
         {
           "Name": "Content-Type",
@@ -15028,11 +15028,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fwvRPnwXmhLU9fkH9ixo5tooypouUFJiWA+hxWaP0rs=\""
+          "Value": "\"Gog5qjpFVun2gWI72453VjJxushe1/WJnR50dD+RgsY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -15042,7 +15042,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fwvRPnwXmhLU9fkH9ixo5tooypouUFJiWA+hxWaP0rs="
+          "Value": "sha256-Gog5qjpFVun2gWI72453VjJxushe1/WJnR50dD+RgsY="
         }
       ]
     },
@@ -15116,7 +15116,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:15 GMT"
         },
         {
           "Name": "Vary",
@@ -15169,7 +15169,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:15 GMT"
         },
         {
           "Name": "Vary",
@@ -15253,7 +15253,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -15306,7 +15306,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -15343,23 +15343,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B7Kde4pNvFvkAtqGwwbscZpYPrGd5LLB6vEHI6EuZtM=\""
+          "Value": "\"nnQPQ56cR3NrV/m4ZZkgjKsR7x8CKoFhj+CnYkUaZ6Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Wed, 05 Nov 2025 20:40:18 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-B7Kde4pNvFvkAtqGwwbscZpYPrGd5LLB6vEHI6EuZtM="
+          "Value": "sha256-nnQPQ56cR3NrV/m4ZZkgjKsR7x8CKoFhj+CnYkUaZ6Q="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\begouxysay-5tqxge01px.gz",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\begouxysay-i36zvfpzxo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -15386,11 +15386,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"igS+I2ViQHFlJR8mMhI44mzrLHDswoFOL1+qoSsKHyQ=\""
+          "Value": "\"ODg35yhv41Ft762/cMMt7jqFJ5MY153Hs3e+NF1O0Pk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -15402,19 +15402,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"B7Kde4pNvFvkAtqGwwbscZpYPrGd5LLB6vEHI6EuZtM=\""
+          "Value": "W/\"nnQPQ56cR3NrV/m4ZZkgjKsR7x8CKoFhj+CnYkUaZ6Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-B7Kde4pNvFvkAtqGwwbscZpYPrGd5LLB6vEHI6EuZtM="
+          "Value": "sha256-nnQPQ56cR3NrV/m4ZZkgjKsR7x8CKoFhj+CnYkUaZ6Q="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\begouxysay-5tqxge01px.gz",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\obj\\Release\\net8.0\\compressed\\begouxysay-i36zvfpzxo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15439,11 +15439,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"igS+I2ViQHFlJR8mMhI44mzrLHDswoFOL1+qoSsKHyQ=\""
+          "Value": "\"ODg35yhv41Ft762/cMMt7jqFJ5MY153Hs3e+NF1O0Pk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -15453,7 +15453,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-igS+I2ViQHFlJR8mMhI44mzrLHDswoFOL1+qoSsKHyQ="
+          "Value": "sha256-ODg35yhv41Ft762/cMMt7jqFJ5MY153Hs3e+NF1O0Pk="
         }
       ]
     },
@@ -15527,7 +15527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Wed, 01 Nov 2023 01:05:46 GMT"
         },
         {
           "Name": "Vary",
@@ -15580,7 +15580,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Wed, 01 Nov 2023 01:05:46 GMT"
         },
         {
           "Name": "Vary",
@@ -15664,7 +15664,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:18 GMT"
         },
         {
           "Name": "Vary",
@@ -15717,7 +15717,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:18 GMT"
         },
         {
           "Name": "Vary",
@@ -15801,7 +15801,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:18 GMT"
         },
         {
           "Name": "Vary",
@@ -15854,7 +15854,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:18 GMT"
         },
         {
           "Name": "Vary",
@@ -15938,7 +15938,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:50 GMT"
         },
         {
           "Name": "Vary",
@@ -15991,7 +15991,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:50 GMT"
         },
         {
           "Name": "Vary",
@@ -16075,7 +16075,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:50 GMT"
         },
         {
           "Name": "Vary",
@@ -16128,7 +16128,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:50 GMT"
         },
         {
           "Name": "Vary",
@@ -16212,7 +16212,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:24 GMT"
         },
         {
           "Name": "Vary",
@@ -16265,7 +16265,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:24 GMT"
         },
         {
           "Name": "Vary",
@@ -16349,7 +16349,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:24 GMT"
         },
         {
           "Name": "Vary",
@@ -16402,7 +16402,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Sat, 15 Mar 2025 03:02:24 GMT"
         },
         {
           "Name": "Vary",
@@ -16486,7 +16486,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Sat, 15 Mar 2025 03:01:46 GMT"
         },
         {
           "Name": "Vary",
@@ -16539,7 +16539,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Sat, 15 Mar 2025 03:01:46 GMT"
         },
         {
           "Name": "Vary",
@@ -16760,7 +16760,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Vary",
@@ -16813,7 +16813,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Vary",
@@ -16897,7 +16897,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Vary",
@@ -16950,7 +16950,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Vary",
@@ -17034,7 +17034,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Vary",
@@ -17087,7 +17087,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Vary",
@@ -18541,7 +18541,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -18594,7 +18594,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -18678,7 +18678,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -18731,7 +18731,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -18815,7 +18815,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -18868,7 +18868,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -21692,7 +21692,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -21745,7 +21745,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -35118,7 +35118,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -35171,7 +35171,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -35666,7 +35666,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -35719,7 +35719,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -35803,7 +35803,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -35856,7 +35856,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -42927,7 +42927,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -42980,7 +42980,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:21 GMT"
+          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
         },
         {
           "Name": "Vary",
@@ -60115,6 +60115,51 @@
       ]
     },
     {
+      "Route": "js/pages/dashboard.analytics.2jdpgx119z.js",
+      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\dashboard.analytics.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vpRNNWUUJERfdbR2+4Ne1pJI5ZtCjArADCwGNpdx7v0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Nov 2025 19:24:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2jdpgx119z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vpRNNWUUJERfdbR2+4Ne1pJI5ZtCjArADCwGNpdx7v0="
+        },
+        {
+          "Name": "label",
+          "Value": "js/pages/dashboard.analytics.js"
+        }
+      ]
+    },
+    {
       "Route": "js/pages/dashboard.analytics.js",
       "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\dashboard.analytics.js",
       "Selectors": [],
@@ -60129,7 +60174,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9905"
+          "Value": "9896"
         },
         {
           "Name": "Content-Type",
@@ -60137,62 +60182,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA=\""
+          "Value": "\"vpRNNWUUJERfdbR2+4Ne1pJI5ZtCjArADCwGNpdx7v0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 15:08:21 GMT"
+          "Value": "Wed, 05 Nov 2025 19:24:24 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA="
-        }
-      ]
-    },
-    {
-      "Route": "js/pages/dashboard.analytics.ykhsxt1ux6.js",
-      "AssetFile": "C:\\Users\\Rober\\source\\repos\\AdminReback\\AdminDashTemplate\\Client\\wwwroot\\js\\pages\\dashboard.analytics.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9905"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 28 Oct 2025 15:08:21 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ykhsxt1ux6"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA="
-        },
-        {
-          "Name": "label",
-          "Value": "js/pages/dashboard.analytics.js"
+          "Value": "sha256-vpRNNWUUJERfdbR2+4Ne1pJI5ZtCjArADCwGNpdx7v0="
         }
       ]
     },
@@ -65877,7 +65877,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vhHM+AsenXSXNeMgcdlrMuFwCmsCIuTBhSDdFBynInU=\""
+          "Value": "\"d8dCnkurGsjY/MNaFYvytTEsJr6lq0zsbWl3WytCrWc=\""
         },
         {
           "Name": "Last-Modified",
@@ -65887,7 +65887,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vhHM+AsenXSXNeMgcdlrMuFwCmsCIuTBhSDdFBynInU="
+          "Value": "sha256-d8dCnkurGsjY/MNaFYvytTEsJr6lq0zsbWl3WytCrWc="
         }
       ]
     },
@@ -65914,17 +65914,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ne/AgxpVViDHXxT2ceUjMVAfAtstMawE31CAxYmuryw=\""
+          "Value": "\"0C4IbIZaketjvlRGAsgtCCURilojenp9o1pcYt9PNXY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Nov 2025 21:29:20 GMT"
+          "Value": "Wed, 05 Nov 2025 20:40:18 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ne/AgxpVViDHXxT2ceUjMVAfAtstMawE31CAxYmuryw="
+          "Value": "sha256-0C4IbIZaketjvlRGAsgtCCURilojenp9o1pcYt9PNXY="
         }
       ]
     }

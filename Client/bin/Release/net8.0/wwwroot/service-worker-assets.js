@@ -1,12 +1,12 @@
 self.assetsManifest = {
-  "version": "XUzHW19d",
+  "version": "oqdwUFu5",
   "assets": [
     {
-      "hash": "sha256-dhGfFiLdCxzpr7U3ZK97T44oc7h0RpywwAwLENLvjqQ=",
+      "hash": "sha256-UxPXyc0plu0BPtZnPzhwnLVYJja2BkcdFoVDSSisgTc=",
       "url": "_framework/AdminDashTemplate.Client.pdb"
     },
     {
-      "hash": "sha256-jykJi7vCIFceXPhgOInTzXCQ6xcF3muvLoVUy01WTJg=",
+      "hash": "sha256-kDXqznJ16Erxe2gQVEF5/YpUkN+PV2NPFbpWvYtQgSU=",
       "url": "_framework/AdminDashTemplate.Client.wasm"
     },
     {
@@ -882,7 +882,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-B7Kde4pNvFvkAtqGwwbscZpYPrGd5LLB6vEHI6EuZtM=",
+      "hash": "sha256-nnQPQ56cR3NrV/m4ZZkgjKsR7x8CKoFhj+CnYkUaZ6Q=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -1586,7 +1586,7 @@ self.assetsManifest = {
       "url": "js/pages/coming-soon.js"
     },
     {
-      "hash": "sha256-Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA=",
+      "hash": "sha256-vpRNNWUUJERfdbR2+4Ne1pJI5ZtCjArADCwGNpdx7v0=",
       "url": "js/pages/dashboard.analytics.js"
     },
     {

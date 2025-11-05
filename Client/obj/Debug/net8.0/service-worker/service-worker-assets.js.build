@@ -1,20 +1,20 @@
 self.assetsManifest = {
-  "version": "YWajyvdU",
+  "version": "0PndR7mP",
   "assets": [
     {
-      "hash": "sha256-lP1hDGWZP4UaKKGcKT/5xe0To8fMHgEiUiVAJUytQtE=",
+      "hash": "sha256-lVKS2jbNdLAjZogz6V+fmym1qbNRQFJHXpJqigMxVM0=",
       "url": "_framework/AdminDashTemplate.Client.pdb"
     },
     {
-      "hash": "sha256-fJ7cMzC6HO8mdtNoa8Q0Ls9MVhkdAgvPSwzlc2Wy2dY=",
+      "hash": "sha256-oNN4W0H4Dg+fYsOTygE4pI0QkgHhjzmzJ4Sbwqas3hA=",
       "url": "_framework/AdminDashTemplate.Client.wasm"
     },
     {
-      "hash": "sha256-UMlzaDWU+TEsTAazLuPWjoXVTI6+sP324SuQZ8M51Mo=",
+      "hash": "sha256-U6C2hwS7ojgPZ8539Qr4hjcYXVTnteP/hIhYO+L7xHM=",
       "url": "_framework/AdminDashTemplate.Shared.pdb"
     },
     {
-      "hash": "sha256-eNya46lVoxNCHl4/slOFro/isybZk90HSrGHK/ffWP0=",
+      "hash": "sha256-nU1P71Wi7oQ1ZZkzwQzyfd2KyDBE4iY2Z2MKNFjUs40=",
       "url": "_framework/AdminDashTemplate.Shared.wasm"
     },
     {
@@ -882,7 +882,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.wasm"
     },
     {
-      "hash": "sha256-0NNlKADgY11DUU0C+iv34PsxAEGTDv1fNwMH9y2uEiA=",
+      "hash": "sha256-Ywp+ttpzwgqnJoxc3iiWIb/HDZyVKRus4gW2jGU03/A=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -1586,7 +1586,7 @@ self.assetsManifest = {
       "url": "js/pages/coming-soon.js"
     },
     {
-      "hash": "sha256-Ai1q7doMamlepMZpEX5ckWEpEFGiWi6w4YtpjbVutSA=",
+      "hash": "sha256-vpRNNWUUJERfdbR2+4Ne1pJI5ZtCjArADCwGNpdx7v0=",
       "url": "js/pages/dashboard.analytics.js"
     },
     {
