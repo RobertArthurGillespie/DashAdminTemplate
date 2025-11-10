@@ -1165,9 +1165,6 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\scpxmg2uz6-oyz0vx2fzb.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\frphujzi3q-ppcp53vtxj.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\o19aqwd4xw-fll0fd7sv1.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\we9f4pdxl7-47yt6h7zn0.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\1cgt0u97w9-5of1lqf24c.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\begouxysay-tc9l73ocjm.gz
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -1183,3 +1180,6 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\refint\AdminDashTemplate.Client.dll
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\AdminDashTemplate.Client.pdb
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\ref\AdminDashTemplate.Client.dll
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\we9f4pdxl7-0p2dl0sasl.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\1cgt0u97w9-tanbyh5eei.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Debug\net8.0\compressed\begouxysay-dbwd4k8hz0.gz

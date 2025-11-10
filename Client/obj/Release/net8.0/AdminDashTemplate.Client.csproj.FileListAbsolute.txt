@@ -1180,6 +1180,6 @@ C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Release\net
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Release\net8.0\refint\AdminDashTemplate.Client.dll
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Release\net8.0\AdminDashTemplate.Client.pdb
 C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Release\net8.0\ref\AdminDashTemplate.Client.dll
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Release\net8.0\compressed\we9f4pdxl7-8acpslzuki.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Release\net8.0\compressed\1cgt0u97w9-ry39v644lv.gz
-C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Release\net8.0\compressed\begouxysay-i36zvfpzxo.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Release\net8.0\compressed\we9f4pdxl7-pvex08rt9g.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Release\net8.0\compressed\1cgt0u97w9-cfkwzp669y.gz
+C:\Users\Rober\source\repos\AdminReback\AdminDashTemplate\Client\obj\Release\net8.0\compressed\begouxysay-gca0wf7fzm.gz

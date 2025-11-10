@@ -46,7 +46,103 @@ class VectorMap {
 }
 
 window.loadAnalytics = async function (dotNetRef) {
+    // --- CONFIGURATION ---
+    // Define a target max for the radial chart (used to calculate the percentage)
+    // *** ADJUST THIS VALUE BASED ON YOUR REQUIRED MAX HOURS ***
+    const MAX_HOURS_TARGET = 5000;
+    // ---------------------
 
+    // --- 1. GET DATA FROM C# (Continuing Education Hours Sum) ---
+    let hoursSum = 0;
+    if (dotNetRef) {
+        try {
+            // Call the JSInvokable method in Analytics.razor
+            hoursSum = await dotNetRef.invokeMethodAsync('GetTotalContinuingEducation');
+        } catch (e) {
+            console.error("Failed to get total continuing education hours from C#:", e);
+            hoursSum = 0;
+        }
+    }
+
+    // Calculate the percentage relative to the target max
+    // Ensures the chart doesn't go over 100% and is rounded to a whole number.
+    const chartPercentage = Math.min(100, Math.round((hoursSum / MAX_HOURS_TARGET) * 100));
+    // ------------------------------------------------------------
+
+
+    // 
+    // Conversions Radial Bar Chart (ID: conversions)
+    //
+    /*try {
+        const conversionsChartElement = document.getElementById("conversions");
+
+        if (conversionsChartElement) {
+
+            // If the chart is already initialized, just update the data to prevent conflicts
+            if (conversionsChartElement.classList.contains('apexcharts-canvas')) {
+                const existingChart = ApexCharts.getChartByID(conversionsChartElement.id);
+                if (existingChart) {
+                    existingChart.updateSeries([chartPercentage]);
+                    console.log(`Updated conversions chart series to ${chartPercentage}%`);
+                    return;
+                }
+            }
+
+
+            const options = {
+                series: [chartPercentage], // <-- Use the calculated percentage
+                chart: {
+                    height: 250,
+                    type: 'radialBar',
+                    toolbar: {
+                        show: false,
+                    }
+                },
+                plotOptions: {
+                    radialBar: {
+                        hollow: {
+                            size: '70%',
+                        },
+                        dataLabels: {
+                            show: true,
+                            name: {
+                                show: true,
+                                fontSize: '14px',
+                                color: '#a9b7c5',
+                                offsetY: 20,
+                                // Label below the number showing the raw hours data
+                                formatter: function (val) {
+                                    return `Total Hours: ${hoursSum} (Target ${MAX_HOURS_TARGET})`;
+                                }
+                            },
+                            value: {
+                                // Fix: Rounds the value to 0 decimal places before adding the %
+                                formatter: function (val) {
+                                    return val.toFixed(0) + '%';
+                                },
+                                fontSize: '24px',
+                                offsetY: -10,
+                                color: '#495057'
+                            }
+                        },
+                        track: {
+                            background: "rgba(170,184,197, 0.4)"
+                        }
+                    },
+                },
+                colors: ["#7f56da"],
+                labels: ['Continuing Education Progress'], // <-- Set the chart label
+            };
+
+            const chart = new ApexCharts(conversionsChartElement, options);
+            chart.render();
+            console.log(`Rendered conversions chart with ${hoursSum} total hours (${chartPercentage}%).`);
+        } else {
+            console.warn("Chart container with ID 'conversions' not found. Cannot render.");
+        }
+    } catch (error) {
+        console.error("An error occurred while rendering the conversions chart:", error);
+    }*/
     //
     // Conversions
     //
@@ -54,6 +150,15 @@ window.loadAnalytics = async function (dotNetRef) {
         const ConversionsChart = document.getElementById("conversions");
 
         if (ConversionsChart) {
+            // If the chart is already initialized, just update the data to prevent conflicts
+            if (ConversionsChart.classList.contains('apexcharts-canvas')) {
+                const existingChart = ApexCharts.getChartByID(ConversionsChart.id);
+                if (existingChart) {
+                    existingChart.updateSeries([chartPercentage]);
+                    console.log(`Updated conversions chart series to ${chartPercentage}%`);
+                    return;
+                }
+            }
             let colors = ["#7f56da", "#22c55e"];
 
             const dataColors = ConversionsChart.dataset.colors;
@@ -81,7 +186,7 @@ window.loadAnalytics = async function (dotNetRef) {
                                 fontSize: '20px',
                                 color: undefined,
                                 formatter: function (val) {
-                                    return val + "%";
+                                    return val.toFixed(0) + '%';
                                 }
                             }
                         },
@@ -106,7 +211,7 @@ window.loadAnalytics = async function (dotNetRef) {
                     dashArray: 4
                 },
                 colors: colors,
-                series: [85.8],
+                series: [hoursSum],
                 labels: ['Total CE Hours'],
                 responsive: [{
                     breakpoint: 380,

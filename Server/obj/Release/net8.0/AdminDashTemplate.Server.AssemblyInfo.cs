@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdminDashTemplate.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f752de0c7a8fbfd1c5abcf30c2ed578029313ebf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2f99d9fff747c6aa08592c76af09812d5b143f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdminDashTemplate.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdminDashTemplate.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

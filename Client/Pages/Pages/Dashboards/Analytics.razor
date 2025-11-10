@@ -27,7 +27,7 @@
                             <div class="col-6 text-end">
                                 <p
                                     class="text-muted mb-0 text-truncate">
-                                    Trainees
+                                    Inspections
                                 </p>
                                 <h3
                                     class="text-dark mt-1 mb-0">
@@ -780,61 +780,63 @@
     // Object reference for JS interop, used to call C# from JS
     private DotNetObjectReference<Analytics>? _dotNetRef;
 
-        /*protected override async Task OnAfterRenderAsync(bool firstRender)
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
+            // Create the object reference
+            _dotNetRef = DotNetObjectReference.Create(this);
+
+            // Import the JS module
             _module = await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./js/pages/dashboard.analytics.js");
-            await JsRuntime.InvokeVoidAsync("loadAnalytics");
+            
+            // Pass the DotNetObjectReference to the JavaScript function
+            await JsRuntime.InvokeVoidAsync("loadAnalytics", _dotNetRef);
+            
+            // These calls were present in your original code
             await JsRuntime.InvokeVoidAsync("loadTheme");
             await JsRuntime.InvokeVoidAsync("loadApps");
         }
-    }*/
+    }
 
-    //private IJSObjectReference? _module;
-    // Object reference for JS interop, used to call C# from JS
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+    // This method is called from JavaScript (in dashboard.analytics.js)
+    [JSInvokable]
+    public async Task<int> GetTotalReputation()
+    {
+        try
         {
-            if (firstRender)
-            {
-                // Create the object reference
-                _dotNetRef = DotNetObjectReference.Create(this);
-
-                // Import the JS module
-                _module = await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./js/pages/dashboard.analytics.js");
-
-                // Pass the DotNetObjectReference to the JavaScript function
-                await JsRuntime.InvokeVoidAsync("loadAnalytics", _dotNetRef);
-
-                // These calls were present in your original code
-                await JsRuntime.InvokeVoidAsync("loadTheme");
-                await JsRuntime.InvokeVoidAsync("loadApps");
-            }
+            // Calls the api/Sim/TotalReputation endpoint
+            var totalReputation = await Http.GetFromJsonAsync<int>("api/Sim/TotalReputation");
+            return totalReputation;
         }
-
-        // This method is called from JavaScript (in dashboard.analytics.js)
-        [JSInvokable]
-        public async Task<int> GetTotalReputation()
+        catch (Exception ex)
         {
-                    try
-                    {
-                        // NEW LOGIC: Call the API endpoint we assume you will create on the Server project.
-                        // We expect the server to return a single integer value (the sum).
-                        var totalReputation = await Http.GetFromJsonAsync<int>("api/Sim/TotalReputation");
-                        return totalReputation;
-                    }
-                    catch (Exception ex)
-                    {
-                        // Log the exception, which is likely a network or deserialization error
-                        Console.WriteLine($"Error fetching total reputation via HTTP: {ex.Message}");
-                        return 0;
-                    }
+            Console.WriteLine($"Error fetching total reputation via HTTP: {ex.Message}");
+            return 0; 
         }
+    }
 
-        // Standard Blazor lifecycle method for cleaning up IDisposable resources
-        public void Dispose()
+    // --- NEW JSINVOKABLE METHOD FOR CONTINUING EDUCATION HOURS ---
+    [JSInvokable]
+    public async Task<int> GetTotalContinuingEducation()
+    {
+        try
         {
-            _dotNetRef?.Dispose();
+            // Calls the api/Sim/TotalContinuingEducation endpoint
+            var totalHours = await Http.GetFromJsonAsync<int>("api/Sim/TotalContinuingEducation");
+            return totalHours;
         }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching total continuing education hours: {ex.Message}");
+            return 0; 
+        }
+    }
+    // -----------------------------------------------------------
 
+    // Standard Blazor lifecycle method for cleaning up IDisposable resources
+    public void Dispose()
+    {
+        _dotNetRef?.Dispose();
+    }
 }

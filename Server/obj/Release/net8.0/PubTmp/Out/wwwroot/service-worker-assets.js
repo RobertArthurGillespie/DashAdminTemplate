@@ -1,8 +1,8 @@
 self.assetsManifest = {
-  "version": "F5/8TAZ0",
+  "version": "VNc3Gxg7",
   "assets": [
     {
-      "hash": "sha256-kDXqznJ16Erxe2gQVEF5/YpUkN+PV2NPFbpWvYtQgSU=",
+      "hash": "sha256-ldlJOwTX7Pof/9qwsVum0OsHm7Q/EszoHln3Syz24sA=",
       "url": "_framework/AdminDashTemplate.Client.wasm"
     },
     {
@@ -450,7 +450,7 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-DdU/IqVB2yCKIbZQP3g+aJGLAElpSIuQTKTi6dbi72E=",
+      "hash": "sha256-IB2vJ+mMjAbTZEIT1GkoBdL/QL8NImCcngnA5TnD7yo=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -1138,7 +1138,7 @@ self.assetsManifest = {
       "url": "js/pages/coming-soon.js"
     },
     {
-      "hash": "sha256-vpRNNWUUJERfdbR2+4Ne1pJI5ZtCjArADCwGNpdx7v0=",
+      "hash": "sha256-1NxB9Tpa+h13dgDzsFftq0QJ8CeViV13yTPbNDHOFos=",
       "url": "js/pages/dashboard.analytics.js"
     },
     {
